@@ -1,6 +1,8 @@
 package net.elzbietkadev.elzbietkamod;
 
 import com.mojang.logging.LogUtils;
+import net.elzbietkadev.elzbietkamod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -28,6 +30,8 @@ public class ElzbietkaMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModItems.register(modEventBus);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -48,6 +52,10 @@ public class ElzbietkaMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS)
+        {
+            event.accept(ModItems.SUT_FOOD);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
