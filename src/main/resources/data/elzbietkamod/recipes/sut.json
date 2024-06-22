@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "id": "elzbietkamod:sut_block"
+      "item": "elzbietkamod:sut_block"
     }
   ],
   "result": {
