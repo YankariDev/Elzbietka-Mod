@@ -12,7 +12,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, ElzbietkaMod.MOD_ID);
 
     public static final RegistryObject<Item> SUT_FOOD = ITEMS.register("sut",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoods.SUT)));
 
     public static void register(IEventBus eventBus)
     {
