@@ -1,6 +1,7 @@
 package net.elzbietkadev.elzbietkamod.item;
 
 import net.elzbietkadev.elzbietkamod.ElzbietkaMod;
+import net.elzbietkadev.elzbietkamod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -17,6 +18,7 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SUT_FOOD.get()))
                     .title(Component.translatable("creativetab.elzbietka_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.SUT_BLOCK.get());
                         output.accept(ModItems.SUT_FOOD.get());
                     })
                     .build());
