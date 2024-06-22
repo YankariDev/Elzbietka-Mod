@@ -59,6 +59,7 @@ public class ElzbietkaMod
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS)
         {
             event.accept(ModItems.SUT_FOOD);
+            event.accept(ModItems.CUM_MODELECZKI);
         }
     }
 

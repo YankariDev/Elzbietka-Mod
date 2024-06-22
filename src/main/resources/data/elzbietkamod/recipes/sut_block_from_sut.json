@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "elzbietkamod:sut"
+    }
+  },
+  "result": {
+    "item": "elzbietkamod:sut_block"
+  }
+}

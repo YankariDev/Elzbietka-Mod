@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.SUT_BLOCK.get());
                         output.accept(ModItems.SUT_FOOD.get());
+                        output.accept(ModItems.CUM_MODELECZKI.get());
                     })
                     .build());
 

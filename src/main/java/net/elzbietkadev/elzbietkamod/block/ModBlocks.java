@@ -20,7 +20,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, ElzbietkaMod.MOD_ID);
 
     public static final RegistryObject<Block> SUT_BLOCK = registerBlock("sut_block",
-            () -> new Block((BlockBehaviour.Properties.ofFullCopy(Blocks.GRAY_CONCRETE).sound(SoundType.AMETHYST))));
+            () -> new Block((BlockBehaviour.Properties.ofFullCopy(Blocks.COBWEB).sound(SoundType.WOOD))));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
