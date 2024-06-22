@@ -18,6 +18,7 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SUT_FOOD.get()))
                     .title(Component.translatable("creativetab.elzbietka_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.SUT_ORE.get());
                         output.accept(ModBlocks.SUT_BLOCK.get());
                         output.accept(ModItems.SUT_FOOD.get());
                         output.accept(ModItems.CUM_MODELECZKI.get());
