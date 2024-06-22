@@ -2,16 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "elzbietkamod:sut"
+    "A": {
+      "id": "elzbietkamod:sut"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "AAA",
+    "AAA",
+    "AAA"
   ],
   "result": {
-    "item": "elzbietkamod:sut_block"
+    "id": "elzbietkamod:sut_block"
   }
 }

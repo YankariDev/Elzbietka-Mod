@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "elzbietkamod:sut_block"
+      "id": "elzbietkamod:sut_block"
     }
   ],
   "result": {
-    "item": "elzbietkamod:sut",
+    "id": "elzbietkamod:sut",
     "count": 9
   }
 }
