@@ -33,6 +33,8 @@ public class ModBlockLootTables extends BlockLootSubProvider
 
         this.add(ModBlocks.SUT_ORE.get(),
                 block -> createCooperLikeOreDrops(ModBlocks.SUT_ORE.get(), ModItems.SUT.get()));
+        this.add(ModBlocks.DEEPSLATE_SUT_ORE.get(),
+                block -> createCooperLikeOreDrops(ModBlocks.DEEPSLATE_SUT_ORE.get(), ModItems.SUT.get()));
 
         LootItemCondition.Builder lootitemcondition$builder = LootItemBlockStatePropertyCondition
                 .hasBlockStateProperties(ModBlocks.SUTINKA_CROP.get())

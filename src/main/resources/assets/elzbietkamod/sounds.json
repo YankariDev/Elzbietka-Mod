@@ -1,0 +1,10 @@
+{
+  "zjebuska": {
+    "sounds": [
+      {
+        "name": "elzbietkamod:zjebuska",
+        "stream": true
+      }
+    ]
+  }
+}

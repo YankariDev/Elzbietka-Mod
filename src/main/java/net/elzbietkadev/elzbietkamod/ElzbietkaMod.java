@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.elzbietkadev.elzbietkamod.block.ModBlocks;
 import net.elzbietkadev.elzbietkamod.item.ModCreativeModeTabs;
 import net.elzbietkadev.elzbietkamod.item.ModItems;
+import net.elzbietkadev.elzbietkamod.sound.ModSounds;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -35,6 +36,7 @@ public class ElzbietkaMod
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -59,6 +61,7 @@ public class ElzbietkaMod
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS)
         {
             event.accept(ModItems.SUT);
+            event.accept(ModItems.SUTINKA);
             event.accept(ModItems.CUM_MODELECZKI);
         }
     }

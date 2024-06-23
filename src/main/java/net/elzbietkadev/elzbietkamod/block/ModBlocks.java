@@ -30,6 +30,11 @@ public class ModBlocks {
                     .strength(2f)
                     .requiresCorrectToolForDrops(), UniformInt.of(4,5)));
 
+    public static final RegistryObject<Block> DEEPSLATE_SUT_ORE = registerBlock("deepslate_sut_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
+                    .strength(3f)
+                    .requiresCorrectToolForDrops(), UniformInt.of(4,5)));
+
     public static final RegistryObject<Block> SUTINKA_CROP = BLOCKS.register("sutinka_crop",
             () -> new SutinkaCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 

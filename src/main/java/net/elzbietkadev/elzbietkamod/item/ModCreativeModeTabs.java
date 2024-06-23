@@ -19,11 +19,13 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.elzbietka_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.SUT_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_SUT_ORE.get());
                         output.accept(ModBlocks.SUT_BLOCK.get());
                         output.accept(ModItems.SUT.get());
                         output.accept(ModItems.SUTINKA.get());
                         output.accept(ModItems.CUM_MODELECZKI.get());
                         output.accept(ModItems.SUTINKA_SEEDS.get());
+                        output.accept(ModItems.ZJEBUSKA_MUSIC_DISC.get());
                     })
                     .build());
 

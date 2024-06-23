@@ -26,6 +26,7 @@ public class ModBlockStateProvider extends BlockStateProvider
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.SUT_BLOCK);
         blockWithItem(ModBlocks.SUT_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_SUT_ORE);
 
         makeSutinkaCrop((CropBlock) ModBlocks.SUTINKA_CROP.get(), "sutinki_stage", "sutinki_stage");
     }

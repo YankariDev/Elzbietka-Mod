@@ -1,6 +1,7 @@
 {
   "values": [
     "elzbietkamod:sut_ore",
+    "elzbietkamod:deepslate_sut_ore",
     "#forge:ores"
   ]
 }

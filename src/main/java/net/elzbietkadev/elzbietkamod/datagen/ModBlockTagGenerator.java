@@ -23,14 +23,15 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.SUT_ORE.get(),
-                        ModBlocks.SUT_BLOCK.get());
+                        ModBlocks.SUT_BLOCK.get(),
+                        ModBlocks.DEEPSLATE_SUT_ORE.get());
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.SUT_BLOCK.get());
         this.tag(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(ModBlocks.SUT_BLOCK.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.SUT_ORE.get()).addTag(Tags.Blocks.ORES);
+                .add(ModBlocks.SUT_ORE.get(), ModBlocks.DEEPSLATE_SUT_ORE.get()).addTag(Tags.Blocks.ORES);
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.SUT_BLOCK.get()).addTag(Tags.Blocks.ORES);
     }

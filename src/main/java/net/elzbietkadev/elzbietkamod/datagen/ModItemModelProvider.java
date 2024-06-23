@@ -22,6 +22,7 @@ public class ModItemModelProvider extends ItemModelProvider
         simpleItem(ModItems.SUTINKA_SEEDS);
         simpleItem(ModItems.CUM_MODELECZKI);
         simpleItem(ModItems.SUTINKA);
+        simpleItem(ModItems.ZJEBUSKA_MUSIC_DISC);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item)
