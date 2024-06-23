@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "elzbietkamod:block/sutinki_stage0"
+    },
+    "age=1": {
+      "model": "elzbietkamod:block/sutinki_stage1"
+    },
+    "age=2": {
+      "model": "elzbietkamod:block/sutinki_stage2"
+    },
+    "age=3": {
+      "model": "elzbietkamod:block/sutinki_stage3"
+    },
+    "age=4": {
+      "model": "elzbietkamod:block/sutinki_stage4"
+    },
+    "age=5": {
+      "model": "elzbietkamod:block/sutinki_stage5"
+    },
+    "age=6": {
+      "model": "elzbietkamod:block/sutinki_stage6"
+    },
+    "age=7": {
+      "model": "elzbietkamod:block/sutinki_stage7"
+    }
+  }
+}

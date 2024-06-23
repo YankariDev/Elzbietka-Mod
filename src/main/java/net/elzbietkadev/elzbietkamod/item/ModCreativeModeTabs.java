@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SUT.get());
                         output.accept(ModItems.SUTINKA.get());
                         output.accept(ModItems.CUM_MODELECZKI.get());
+                        output.accept(ModItems.SUTINKA_SEEDS.get());
                     })
                     .build());
 

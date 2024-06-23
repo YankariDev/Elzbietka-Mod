@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "elzbietkamod:sutinka"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "elzbietkamod:sutinka_seeds"
+  }
+}

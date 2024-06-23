@@ -1,7 +1,9 @@
 {
   "item.elzbietkamod.sut": "Sut",
-  "item.elzbietkamod.sut": "Sutinka",
+  "item.elzbietkamod.sutinka": "Sutinka",
   "item.elzbietkamod.cum_modeleczki": "Cum Modeleczki",
+
+  "item.elzbietkamod.sutinka_seeds": "Zarodniki Sutinki",
 
   "block.elzbietkamod.sut_block": "Blok suta",
   "block.elzbietkamod.sut_ore": "Ruda suta",

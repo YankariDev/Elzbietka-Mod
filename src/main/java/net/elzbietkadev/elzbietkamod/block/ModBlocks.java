@@ -1,6 +1,7 @@
 package net.elzbietkadev.elzbietkamod.block;
 
 import net.elzbietkadev.elzbietkamod.ElzbietkaMod;
+import net.elzbietkadev.elzbietkamod.block.custom.SutinkaCropBlock;
 import net.elzbietkadev.elzbietkamod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -22,11 +23,15 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, ElzbietkaMod.MOD_ID);
 
     public static final RegistryObject<Block> SUT_BLOCK = registerBlock("sut_block",
-            () -> new Block((BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_WOOD).sound(SoundType.METAL).strength(0.5f))));
+            () -> new Block((BlockBehaviour.Properties.copy(Blocks.ACACIA_WOOD).sound(SoundType.METAL).strength(0.5f))));
 
     public static final RegistryObject<Block> SUT_ORE = registerBlock("sut_ore",
-            () -> new DropExperienceBlock(UniformInt.of(4,5),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops()));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(2f)
+                    .requiresCorrectToolForDrops(), UniformInt.of(4,5)));
+
+    public static final RegistryObject<Block> SUTINKA_CROP = BLOCKS.register("sutinka_crop",
+            () -> new SutinkaCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {

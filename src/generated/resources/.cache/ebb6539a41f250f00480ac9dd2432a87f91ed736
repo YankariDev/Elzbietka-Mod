@@ -1,0 +1,6 @@
+// 1.20.1	2024-06-23T21:17:35.7063659	Tags for minecraft:block mod id elzbietkamod
+85e8c69083a895b9ff1f0837145cfe429794343f data/minecraft/tags/blocks/mineable/axe.json
+fa9fa540cc40e029d2f3070c0df6b9f6574babc2 data/minecraft/tags/blocks/mineable/pickaxe.json
+85e8c69083a895b9ff1f0837145cfe429794343f data/minecraft/tags/blocks/mineable/shovel.json
+aa1cfa0e5892f89d52af1925afac6a73c3462d7a data/minecraft/tags/blocks/needs_iron_tool.json
+1090f98c84b00a423ac2ca9e89d83438885c679b data/minecraft/tags/blocks/needs_stone_tool.json
