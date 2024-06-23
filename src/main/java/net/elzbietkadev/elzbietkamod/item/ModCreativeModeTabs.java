@@ -15,12 +15,13 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ElzbietkaMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> ELZBIETKA_TAB = TABS.register("elzbietka_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SUT_FOOD.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SUT.get()))
                     .title(Component.translatable("creativetab.elzbietka_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.SUT_ORE.get());
                         output.accept(ModBlocks.SUT_BLOCK.get());
-                        output.accept(ModItems.SUT_FOOD.get());
+                        output.accept(ModItems.SUT.get());
+                        output.accept(ModItems.SUTINKA.get());
                         output.accept(ModItems.CUM_MODELECZKI.get());
                     })
                     .build());

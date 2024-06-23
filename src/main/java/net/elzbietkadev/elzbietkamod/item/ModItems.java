@@ -11,8 +11,10 @@ public class ModItems {
     public  static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ElzbietkaMod.MOD_ID);
 
-    public static final RegistryObject<Item> SUT_FOOD = ITEMS.register("sut",
+    public static final RegistryObject<Item> SUT = ITEMS.register("sut",
             () -> new Item(new Item.Properties().food(ModFoods.SUT)));
+    public static final RegistryObject<Item> SUTINKA = ITEMS.register("sutinka",
+            () -> new Item(new Item.Properties().food(ModFoods.SUTINKA)));
 
     public static final RegistryObject<Item> CUM_MODELECZKI = ITEMS.register("cum_modeleczki",
             () -> new Item(new Item.Properties()));

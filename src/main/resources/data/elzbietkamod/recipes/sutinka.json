@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "elzbietkamod:sut"
+    },
+    "B": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "result": {
+    "id": "elzbietkamod:sut_block"
+  }
+}

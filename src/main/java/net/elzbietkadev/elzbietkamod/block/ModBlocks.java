@@ -25,8 +25,8 @@ public class ModBlocks {
             () -> new Block((BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_WOOD).sound(SoundType.METAL).strength(0.5f))));
 
     public static final RegistryObject<Block> SUT_ORE = registerBlock("sut_ore",
-            () -> new DropExperienceBlock(UniformInt.of(4,5), BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
-                                .strength(2f).requiresCorrectToolForDrops()));
+            () -> new DropExperienceBlock(UniformInt.of(4,5),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
