@@ -52,12 +52,12 @@ public class ModConfiguredFeatures
 
         register(context, SUTINKA_TREE_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(ModBlocks.SUTINKA_LOG.get()),
-                new StraightTrunkPlacer(1, 2, 1),
+                new StraightTrunkPlacer(2, 2, 2),
 
                 BlockStateProvider.simple(ModBlocks.SUTINKA_LEAVES.get()),
                 new BlobFoliagePlacer(ConstantInt.of(3), ConstantInt.of(2), 3),
 
-                new TwoLayersFeatureSize(1, 0, 1)).build());
+                new TwoLayersFeatureSize(1, 2, 1)).build());
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

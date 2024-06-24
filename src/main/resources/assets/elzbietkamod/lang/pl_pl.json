@@ -29,11 +29,16 @@
   "block.elzbietkamod.sutinka_door": "Sutinkowe drzwi",
   "block.elzbietkamod.sutinka_trapdoor": "Sutinkowa klapa",
 
-  "item.elzbietkamod.sut_sword": "Sut Miecz",
-  "item.elzbietkamod.sut_hoe": "Sut Motyka",
-  "item.elzbietkamod.sut_shovel": "Sut Łopata",
-  "item.elzbietkamod.sut_axe": "Sut Siekiera",
-  "item.elzbietkamod.sut_pickaxe": "Sut Kilof",
+  "item.elzbietkamod.sut_sword": "Sut miecz",
+  "item.elzbietkamod.sut_hoe": "Sut motyka",
+  "item.elzbietkamod.sut_shovel": "Sut łopata",
+  "item.elzbietkamod.sut_axe": "Sut siekiera",
+  "item.elzbietkamod.sut_pickaxe": "Sut kilof",
+
+  "item.elzbietkamod.sut_helmet": "Sut hełm",
+  "item.elzbietkamod.sut_chestplate": "Nasutnik",
+  "item.elzbietkamod.sut_leggings": "Suty nogawice",
+  "item.elzbietkamod.sut_boots": "Suty buty",
 
   "creativetab.elzbietka_tab": "Elżbietka"
 }

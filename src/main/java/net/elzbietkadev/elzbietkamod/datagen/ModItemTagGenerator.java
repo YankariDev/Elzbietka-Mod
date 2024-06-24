@@ -30,5 +30,11 @@ public class ModItemTagGenerator extends ItemTagsProvider
                 .add(ModBlocks.SUTINKA_WOOD.get().asItem())
                 .add(ModBlocks.STRIPPED_SUTINKA_LOG.get().asItem())
                 .add(ModBlocks.STRIPPED_SUTINKA_WOOD.get().asItem());
+
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.SUT_HELMET.get())
+                .add(ModItems.SUT_CHESTPLATE.get())
+                .add(ModItems.SUT_LEGGINGS.get())
+                .add(ModItems.SUT_BOOTS.get());
     }
 }

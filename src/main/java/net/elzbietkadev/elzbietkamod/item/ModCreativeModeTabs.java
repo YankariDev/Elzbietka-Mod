@@ -46,6 +46,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SUT_SHOVEL.get());
                         output.accept(ModItems.SUT_AXE.get());
                         output.accept(ModItems.SUT_PICKAXE.get());
+                        output.accept(ModItems.SUT_BOOTS.get());
+                        output.accept(ModItems.SUT_LEGGINGS.get());
+                        output.accept(ModItems.SUT_CHESTPLATE.get());
+                        output.accept(ModItems.SUT_HELMET.get());
                     })
                     .build());
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "elzbietkamod:sut"
+    }
+  },
+  "pattern": [
+    " B ",
+    " A ",
+    " A "
+  ],
+  "result": {
+    "item": "elzbietkamod:sut_shovel"
+  },
+  "show_notification": true
+}

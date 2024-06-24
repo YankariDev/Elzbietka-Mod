@@ -38,6 +38,15 @@ public class ModItems {
     public static final RegistryObject<Item> SUT_PICKAXE = ITEMS.register("sut_pickaxe",
             () -> new PickaxeItem(ModToolTiers.SUT, 1, 1, new Item.Properties()));
 
+    public static final RegistryObject<Item> SUT_HELMET = ITEMS.register("sut_helmet",
+            () -> new ArmorItem(ModArmorMaterials.SUT, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> SUT_CHESTPLATE = ITEMS.register("sut_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.SUT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> SUT_LEGGINGS = ITEMS.register("sut_leggings",
+            () -> new ArmorItem(ModArmorMaterials.SUT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> SUT_BOOTS = ITEMS.register("sut_boots",
+            () -> new ArmorItem(ModArmorMaterials.SUT, ArmorItem.Type.BOOTS, new Item.Properties()));
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);
