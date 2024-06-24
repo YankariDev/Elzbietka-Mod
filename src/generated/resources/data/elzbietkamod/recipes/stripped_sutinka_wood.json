@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "elzbietkamod:stripped_sutinka_log"
+    }
+  },
+  "pattern": [
+    "AA ",
+    "AA ",
+    "   "
+  ],
+  "result": {
+    "item": "elzbietkamod:stripped_sutinka_wood"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "elzbietkamod:sutinka_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "elzbietkamod:sutinka_planks"
+  }
+}
