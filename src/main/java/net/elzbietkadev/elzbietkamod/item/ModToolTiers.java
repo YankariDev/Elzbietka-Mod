@@ -14,8 +14,8 @@ import java.util.List;
 public class ModToolTiers
 {
     public static final Tier SUT = TierSortingRegistry.registerTier(
-            new ForgeTier(5, 1300, 8.5f, 4f, 25,
-                    ModTags.Blocks.NEEDS_SAPPHIRE_TOOL, () -> Ingredient.of(ModItems.SUT.get())),
-            new ResourceLocation(ElzbietkaMod.MOD_ID, "sut"), List.of(Tiers.DIAMOND), List.of());
+            new ForgeTier(2, 350, 6.5f, 2f, 17,
+                    ModTags.Blocks.NEEDS_SUT_TOOL, () -> Ingredient.of(ModItems.SUT.get())),
+            new ResourceLocation(ElzbietkaMod.MOD_ID, "sut"), List.of(Tiers.IRON), List.of());
 
 }
