@@ -17,5 +17,9 @@ public class ModToolTiers
             new ForgeTier(2, 350, 6.5f, 2f, 17,
                     ModTags.Blocks.NEEDS_SUT_TOOL, () -> Ingredient.of(ModItems.SUT.get())),
             new ResourceLocation(ElzbietkaMod.MOD_ID, "sut"), List.of(Tiers.IRON), List.of());
+    public static final Tier SUPER_SUT = TierSortingRegistry.registerTier(
+            new ForgeTier(2, 1900, 9.5f, 5f, 6,
+                    ModTags.Blocks.NEEDS_SUT_TOOL, () -> Ingredient.of(ModItems.SUT.get())),
+            new ResourceLocation(ElzbietkaMod.MOD_ID, "sut"), List.of(Tiers.IRON), List.of());
 
 }

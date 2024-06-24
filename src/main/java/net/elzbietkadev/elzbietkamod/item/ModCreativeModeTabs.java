@@ -47,10 +47,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SUT_SHOVEL.get());
                         output.accept(ModItems.SUT_AXE.get());
                         output.accept(ModItems.SUT_PICKAXE.get());
-                        output.accept(ModItems.SUT_BOOTS.get());
-                        output.accept(ModItems.SUT_LEGGINGS.get());
-                        output.accept(ModItems.SUT_CHESTPLATE.get());
                         output.accept(ModItems.SUT_HELMET.get());
+                        output.accept(ModItems.SUT_CHESTPLATE.get());
+                        output.accept(ModItems.SUT_LEGGINGS.get());
+                        output.accept(ModItems.SUT_BOOTS.get());
 
 
 
@@ -60,6 +60,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SUPER_SUT_STONE_BRICKS_SLAB.get());
                         output.accept(ModBlocks.SUPER_SUT_STONE_BRICKS_WALL.get());
                         output.accept(ModItems.SUPER_SUT.get());
+                        output.accept(ModItems.SUPER_SUT_HOE.get());
+                        output.accept(ModItems.SUPER_SUT_SWORD.get());
+                        output.accept(ModItems.SUPER_SUT_SHOVEL.get());
+                        output.accept(ModItems.SUPER_SUT_AXE.get());
+                        output.accept(ModItems.SUPER_SUT_PICKAXE.get());
                         output.accept(ModItems.SUPER_SUT_HELMET.get());
                         output.accept(ModItems.SUPER_SUT_CHESTPLATE.get());
                         output.accept(ModItems.SUPER_SUT_LEGGINGS.get());

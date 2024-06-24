@@ -61,6 +61,17 @@ public class ModItems {
     public static final RegistryObject<Item> SUPER_SUT_BOOTS = ITEMS.register("super_sut_boots",
             () -> new ArmorItem(ModArmorMaterials.SUPER_SUT, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+    public static final RegistryObject<Item> SUPER_SUT_SWORD = ITEMS.register("super_sut_sword",
+            () -> new SwordItem(ModToolTiers.SUPER_SUT, 4, 2, new Item.Properties()));
+    public static final RegistryObject<Item> SUPER_SUT_HOE = ITEMS.register("super_sut_hoe",
+            () -> new HoeItem(ModToolTiers.SUPER_SUT, 0, 0, new Item.Properties()));
+    public static final RegistryObject<Item> SUPER_SUT_SHOVEL = ITEMS.register("super_sut_shovel",
+            () -> new ShovelItem(ModToolTiers.SUPER_SUT, 1, 1, new Item.Properties()));
+    public static final RegistryObject<Item> SUPER_SUT_AXE = ITEMS.register("super_sut_axe",
+            () -> new AxeItem(ModToolTiers.SUPER_SUT, 6, 2, new Item.Properties()));
+    public static final RegistryObject<Item> SUPER_SUT_PICKAXE = ITEMS.register("super_sut_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.SUPER_SUT, 1, 1, new Item.Properties()));
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);

@@ -230,6 +230,82 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModItems.SUTINKA.get())
                 .unlockedBy(getHasName(ModItems.SUTINKA.get()), has(ModItems.SUTINKA.get()))
                 .save(consumer);
+
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUPER_SUT_HOE.get())
+                .pattern("BB ")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('A', Items.STICK)
+                .define('B', ModItems.SUPER_SUT.get())
+                .unlockedBy(getHasName(ModItems.SUPER_SUT.get()), has(ModItems.SUPER_SUT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUPER_SUT_SHOVEL.get())
+                .pattern(" B ")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('A', Items.STICK)
+                .define('B', ModItems.SUPER_SUT.get())
+                .unlockedBy(getHasName(ModItems.SUPER_SUT.get()), has(ModItems.SUPER_SUT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUPER_SUT_SWORD.get())
+                .pattern(" B ")
+                .pattern(" B ")
+                .pattern(" A ")
+                .define('A', Items.STICK)
+                .define('B', ModItems.SUPER_SUT.get())
+                .unlockedBy(getHasName(ModItems.SUPER_SUT.get()), has(ModItems.SUPER_SUT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUPER_SUT_AXE.get())
+                .pattern("BB ")
+                .pattern("BA ")
+                .pattern(" A ")
+                .define('A', Items.STICK)
+                .define('B', ModItems.SUPER_SUT.get())
+                .unlockedBy(getHasName(ModItems.SUPER_SUT.get()), has(ModItems.SUPER_SUT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUPER_SUT_PICKAXE.get())
+                .pattern("BBB")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('A', Items.STICK)
+                .define('B', ModItems.SUPER_SUT.get())
+                .unlockedBy(getHasName(ModItems.SUPER_SUT.get()), has(ModItems.SUPER_SUT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUPER_SUT_HELMET.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("   ")
+                .define('A', ModItems.SUPER_SUT.get())
+                .unlockedBy(getHasName(ModItems.SUPER_SUT.get()), has(ModItems.SUPER_SUT.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUPER_SUT_CHESTPLATE.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.SUPER_SUT.get())
+                .unlockedBy(getHasName(ModItems.SUPER_SUT.get()), has(ModItems.SUPER_SUT.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUPER_SUT_LEGGINGS.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.SUPER_SUT.get())
+                .unlockedBy(getHasName(ModItems.SUPER_SUT.get()), has(ModItems.SUPER_SUT.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUPER_SUT_BOOTS.get())
+                .pattern("   ")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.SUPER_SUT.get())
+                .unlockedBy(getHasName(ModItems.SUPER_SUT.get()), has(ModItems.SUPER_SUT.get()))
+                .save(consumer);
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> p_250654_, List<ItemLike> p_250172_, RecipeCategory p_250588_, ItemLike p_251868_, float p_250789_, int p_252144_, String p_251687_) {

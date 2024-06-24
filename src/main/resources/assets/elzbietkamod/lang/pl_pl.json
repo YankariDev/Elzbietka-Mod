@@ -48,5 +48,16 @@
   "block.elzbietkamod.super_sut_stone_bricks_wall": "Kamienna ceglana ściana Super Suta",
   "block.elzbietkamod.super_sut_stone_bricks_slab": "Kamienny ceglany półblok Super Suta",
 
+  "item.elzbietkamod.super_sut_sword": "Super Sut miecz",
+  "item.elzbietkamod.super_sut_hoe": "Super Sut motyka",
+  "item.elzbietkamod.super_sut_shovel": "Super Sut łopata",
+  "item.elzbietkamod.super_sut_axe": "Super Sut siekiera",
+  "item.elzbietkamod.super_sut_pickaxe": "Super Sut kilof",
+
+  "item.elzbietkamod.super_sut_helmet": "Super Sut hełm",
+  "item.elzbietkamod.super_sut_chestplate": "Super Nasutnik",
+  "item.elzbietkamod.super_sut_leggings": "Super Suty nogawice",
+  "item.elzbietkamod.super_sut_boots": "Super Suty buty",
+
   "creativetab.elzbietka_tab": "Elżbietka"
 }

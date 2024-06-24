@@ -84,6 +84,12 @@ public class ModItemModelProvider extends ItemModelProvider
         trimmedArmorItem(ModItems.SUPER_SUT_CHESTPLATE);
         trimmedArmorItem(ModItems.SUPER_SUT_LEGGINGS);
         trimmedArmorItem(ModItems.SUPER_SUT_BOOTS);
+
+        handheldItem(ModItems.SUPER_SUT_AXE);
+        handheldItem(ModItems.SUPER_SUT_HOE);
+        handheldItem(ModItems.SUPER_SUT_PICKAXE);
+        handheldItem(ModItems.SUPER_SUT_SWORD);
+        handheldItem(ModItems.SUPER_SUT_SHOVEL);
     }
 
     public void wallItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
