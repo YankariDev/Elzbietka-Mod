@@ -3,18 +3,24 @@ package net.elzbietkadev.elzbietkamod.datagen;
 import net.elzbietkadev.elzbietkamod.ElzbietkaMod;
 import net.elzbietkadev.elzbietkamod.block.ModBlocks;
 import net.elzbietkadev.elzbietkamod.item.ModItems;
+import net.minecraft.advancements.critereon.InventoryChangeTrigger;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Block;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.Iterator;
 import java.util.List;
 import java.util.function.Consumer;
+
+import static net.minecraft.advancements.critereon.InventoryChangeTrigger.*;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder
 {
@@ -34,6 +40,20 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.SUT.get())
                 .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
                 .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SUTINKA_WOOD.get())
+                .pattern("AA ")
+                .pattern("AA ")
+                .pattern("   ")
+                .define('A', ModBlocks.SUTINKA_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.SUTINKA_LOG.get()), has(ModBlocks.SUTINKA_LOG.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_SUTINKA_WOOD.get())
+                .pattern("AA ")
+                .pattern("AA ")
+                .pattern("   ")
+                .define('A', ModBlocks.STRIPPED_SUTINKA_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.STRIPPED_SUTINKA_LOG.get()), has(ModBlocks.STRIPPED_SUTINKA_LOG.get()))
+                .save(consumer);
         ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.SUTINKA.get())
                 .pattern(" A ")
                 .pattern("ABA")
@@ -47,6 +67,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.SUT_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.SUT_BLOCK.get()), has(ModBlocks.SUT_BLOCK.get()))
                 .save(consumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS,ModBlocks.SUTINKA_PLANKS.get(), 4)
+                .requires(ModBlocks.SUTINKA_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.SUTINKA_LOG.get()), has(ModBlocks.SUTINKA_LOG.get()))
+                .save(consumer);
+
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SUTINKA_SEEDS.get(), 2)
                 .requires(ModItems.SUTINKA.get())
                 .unlockedBy(getHasName(ModItems.SUTINKA.get()), has(ModItems.SUTINKA.get()))

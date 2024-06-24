@@ -46,6 +46,8 @@ public class ModBlocks {
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).strength(3f)));
     public static final RegistryObject<Block> STRIPPED_SUTINKA_WOOD = registerBlock("stripped_sutinka_wood",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).strength(3f)));
+    public static final RegistryObject<Block> SUTINKA_PLANKS = registerBlock("sutinka_planks",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(3f)));
 
 
     public static final RegistryObject<Block> SUTINKA_LEAVES = registerBlock("sutinka_leaves",

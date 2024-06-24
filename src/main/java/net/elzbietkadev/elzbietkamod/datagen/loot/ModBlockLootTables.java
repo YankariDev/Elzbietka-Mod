@@ -34,6 +34,7 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.dropSelf(ModBlocks.SUTINKA_WOOD.get());
         this.dropSelf(ModBlocks.STRIPPED_SUTINKA_LOG.get());
         this.dropSelf(ModBlocks.STRIPPED_SUTINKA_WOOD.get());
+        this.dropSelf(ModBlocks.SUTINKA_PLANKS.get());
         this.dropSelf(ModBlocks.SUTINKA_SAPLING.get());
 
         this.add(ModBlocks.SUTINKA_LEAVES.get(), block ->

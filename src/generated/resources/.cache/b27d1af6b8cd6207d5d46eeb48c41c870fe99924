@@ -1,10 +1,11 @@
-// 1.20.1	2024-06-24T03:09:26.2767682	Block States: elzbietkamod
+// 1.20.1	2024-06-24T03:52:57.8859452	Block States: elzbietkamod
 fdc941dca3fd42cba2c54844297118ccfea6ce78 assets/elzbietkamod/blockstates/deepslate_sut_ore.json
 12e9be540d218fa4b436dace11e271a030c418a3 assets/elzbietkamod/blockstates/stripped_sutinka_log.json
 1dfd9139ab2f401bf66b2a80af01e4df2dd7a6cd assets/elzbietkamod/blockstates/stripped_sutinka_wood.json
 a484a45a2591898e6fe1e6ddb3165363380101e8 assets/elzbietkamod/blockstates/sutinka_crop.json
 364cfb15088b619943e8f03874a047b74cd73d8f assets/elzbietkamod/blockstates/sutinka_leaves.json
 8188fc151480ba29708104f1dae2701061c1ae8c assets/elzbietkamod/blockstates/sutinka_log.json
+e80893580c63f251d729b7998d33b9d90c944291 assets/elzbietkamod/blockstates/sutinka_planks.json
 740fb1cf6e046be44c75a306f29f875a6906c44b assets/elzbietkamod/blockstates/sutinka_sapling.json
 db9c896ab6fb424efbf3da7dd207b29765502de7 assets/elzbietkamod/blockstates/sutinka_wood.json
 f90907f914e6ac2f7258a57d6d1fe5d437a38ec0 assets/elzbietkamod/blockstates/sut_block.json
@@ -17,6 +18,7 @@ de80bd9695482af903413442e6605cd1892e7142 assets/elzbietkamod/models/block/stripp
 16b0e8f6867a732ad053d3c5c202145eaa930163 assets/elzbietkamod/models/block/sutinka_leaves.json
 f415cb8e2c0242f49062c84c9a316e1919a2967c assets/elzbietkamod/models/block/sutinka_log.json
 c0eebcecaacf007318373226b413a309c05da802 assets/elzbietkamod/models/block/sutinka_log_horizontal.json
+85e05a4ec354cd072a5c7b771c184146814bdc62 assets/elzbietkamod/models/block/sutinka_planks.json
 51f073198a8e090556fc49806f8784e5715af3a0 assets/elzbietkamod/models/block/sutinka_sapling.json
 7b643d68743c2ba6910e96741a60b81bb5e17567 assets/elzbietkamod/models/block/sutinka_wood.json
 d510625a81831fbb5e667f7ea92e94ff99671fd2 assets/elzbietkamod/models/block/sutinka_wood_horizontal.json
@@ -35,6 +37,7 @@ c1c92ee27c02fd24c088938695461930d3fcdb4d assets/elzbietkamod/models/item/deepsla
 e0ad7db0c440a482522f19baa7c5f263d3e7a1fe assets/elzbietkamod/models/item/stripped_sutinka_wood.json
 1d4e4471585cf5d5fe46c7e9ae1c577d94dbb129 assets/elzbietkamod/models/item/sutinka_leaves.json
 889c3d15e6d1aa7eb7c2ba1fbdbe4a0fbbce7d42 assets/elzbietkamod/models/item/sutinka_log.json
+0a1924f8d9145464a360053cc1217a662bd9228c assets/elzbietkamod/models/item/sutinka_planks.json
 e28f16630c4b665e8b4cc06d976e3917099abebb assets/elzbietkamod/models/item/sutinka_wood.json
 f0d8cc9f0270fcf0f6e917f6f3666702e588fcf4 assets/elzbietkamod/models/item/sut_block.json
 df32c209d0970b80e2c25c54537f5b68743cbca7 assets/elzbietkamod/models/item/sut_ore.json

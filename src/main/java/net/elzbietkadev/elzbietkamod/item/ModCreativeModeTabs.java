@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.STRIPPED_SUTINKA_LOG.get());
                         output.accept(ModBlocks.SUTINKA_WOOD.get());
                         output.accept(ModBlocks.STRIPPED_SUTINKA_WOOD.get());
+                        output.accept(ModBlocks.SUTINKA_PLANKS.get());
                         output.accept(ModBlocks.SUTINKA_LEAVES.get());
                         output.accept(ModBlocks.SUT_BLOCK.get());
                         output.accept(ModItems.SUT.get());

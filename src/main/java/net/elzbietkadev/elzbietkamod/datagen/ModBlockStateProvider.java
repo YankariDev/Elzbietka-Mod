@@ -29,6 +29,7 @@ public class ModBlockStateProvider extends BlockStateProvider
         blockWithItem(ModBlocks.SUT_BLOCK);
         blockWithItem(ModBlocks.SUT_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_SUT_ORE);
+        blockWithItem(ModBlocks.SUTINKA_PLANKS);
 
         logBlock(((RotatedPillarBlock) ModBlocks.SUTINKA_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.SUTINKA_WOOD.get()), blockTexture(ModBlocks.SUTINKA_LOG.get()), blockTexture(ModBlocks.SUTINKA_LOG.get()));

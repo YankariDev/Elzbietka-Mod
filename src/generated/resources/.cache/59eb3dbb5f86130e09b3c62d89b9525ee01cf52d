@@ -1,10 +1,11 @@
-// 1.20.1	2024-06-24T02:45:16.3512507	Loot Tables
+// 1.20.1	2024-06-24T03:52:57.8889378	Loot Tables
 afee2708e2e87d09d017c9617c077657fa1c1bc2 data/elzbietkamod/loot_tables/blocks/deepslate_sut_ore.json
 0ef2a1d8d08e12c36013faf5d5ba0284dab9bd27 data/elzbietkamod/loot_tables/blocks/stripped_sutinka_log.json
 3f98c45475d76831523d8273646f92d46ed8ae54 data/elzbietkamod/loot_tables/blocks/stripped_sutinka_wood.json
 5ab9e8b02ddf4823760d64032bfebd47aacadb3e data/elzbietkamod/loot_tables/blocks/sutinka_crop.json
 1ee9c6d30157239372d2ee8cc1a98631ae7893f3 data/elzbietkamod/loot_tables/blocks/sutinka_leaves.json
 e66964e396d941a836fae8b70491f2741670b33a data/elzbietkamod/loot_tables/blocks/sutinka_log.json
+6d419b0977fd7cecb6005e5642af78680379d496 data/elzbietkamod/loot_tables/blocks/sutinka_planks.json
 dbb5161731c2487b8e221645ef4225e43d8d0931 data/elzbietkamod/loot_tables/blocks/sutinka_sapling.json
 49a49d89f0cb02c2127f3588e33e4da7d2229533 data/elzbietkamod/loot_tables/blocks/sutinka_wood.json
 adb9b274fb39163d0c19cffeb28c86b46a77ff71 data/elzbietkamod/loot_tables/blocks/sut_block.json
