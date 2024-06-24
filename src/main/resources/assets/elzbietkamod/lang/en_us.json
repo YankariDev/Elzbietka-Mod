@@ -10,6 +10,14 @@
 
   "block.elzbietkamod.sut_block": "Nipple Block",
   "block.elzbietkamod.sut_ore": "Nipple Ore",
+  "block.elzbietkamod.deepslate_sut_ore": "Deepslate Nipple Ore",
 
-  "creativetab.elzbietka_tab": "Elzbietka"
+  "block.elzbietkamod.sutinka_log": "Nippla Log",
+  "block.elzbietkamod.sutinka_wood": "Nippla Wood",
+  "block.elzbietkamod.stripped_sutinka_log": "Stripped Nippla Log",
+  "block.elzbietkamod.stripped_sutinka_wood": "Stripped Nippla Log",
+  "block.elzbietkamod.sutinka_leaves": "Nippla Leaves",
+  "block.elzbietkamod.sutinka_sapling": "Nippla Sapling",
+
+  "creativetab.elzbietka_tab": "Elżbietka"
 }

@@ -1,10 +1,12 @@
 package net.elzbietkadev.elzbietkamod.datagen;
 
 import net.elzbietkadev.elzbietkamod.ElzbietkaMod;
+import net.elzbietkadev.elzbietkamod.block.ModBlocks;
 import net.elzbietkadev.elzbietkamod.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -22,5 +24,11 @@ public class ModItemTagGenerator extends ItemTagsProvider
     protected void addTags(HolderLookup.Provider provider) {
         this.tag(ItemTags.MUSIC_DISCS)
                 .add(ModItems.ZJEBUSKA_MUSIC_DISC.get());
+
+        this.tag(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.SUTINKA_LOG.get().asItem())
+                .add(ModBlocks.SUTINKA_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_SUTINKA_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_SUTINKA_WOOD.get().asItem());
     }
 }

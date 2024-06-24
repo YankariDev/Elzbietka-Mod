@@ -20,11 +20,17 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.SUT_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_SUT_ORE.get());
+                        output.accept(ModBlocks.SUTINKA_LOG.get());
+                        output.accept(ModBlocks.STRIPPED_SUTINKA_LOG.get());
+                        output.accept(ModBlocks.SUTINKA_WOOD.get());
+                        output.accept(ModBlocks.STRIPPED_SUTINKA_WOOD.get());
+                        output.accept(ModBlocks.SUTINKA_LEAVES.get());
                         output.accept(ModBlocks.SUT_BLOCK.get());
                         output.accept(ModItems.SUT.get());
                         output.accept(ModItems.SUTINKA.get());
                         output.accept(ModItems.CUM_MODELECZKI.get());
                         output.accept(ModItems.SUTINKA_SEEDS.get());
+                        output.accept(ModBlocks.SUTINKA_SAPLING.get());
                         output.accept(ModItems.ZJEBUSKA_MUSIC_DISC.get());
                     })
                     .build());

@@ -1,4 +1,5 @@
-// 1.20.1	2024-06-23T23:55:59.3870173	Tags for minecraft:block mod id elzbietkamod
+// 1.20.1	2024-06-24T02:45:16.353245	Tags for minecraft:block mod id elzbietkamod
+9847a7a8c894c69ef60393bc3a786e6c4c96bf9f data/minecraft/tags/blocks/logs_that_burn.json
 85e8c69083a895b9ff1f0837145cfe429794343f data/minecraft/tags/blocks/mineable/axe.json
 db70cf0c0f97057c0a790df7d1b053d48550be98 data/minecraft/tags/blocks/mineable/pickaxe.json
 85e8c69083a895b9ff1f0837145cfe429794343f data/minecraft/tags/blocks/mineable/shovel.json

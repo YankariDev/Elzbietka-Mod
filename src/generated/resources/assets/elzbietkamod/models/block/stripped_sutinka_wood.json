@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "elzbietkamod:block/stripped_sutinka_log",
+    "side": "elzbietkamod:block/stripped_sutinka_log"
+  }
+}

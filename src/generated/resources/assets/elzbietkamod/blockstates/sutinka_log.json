@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "elzbietkamod:block/sutinka_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "elzbietkamod:block/sutinka_log"
+    },
+    "axis=z": {
+      "model": "elzbietkamod:block/sutinka_log_horizontal",
+      "x": 90
+    }
+  }
+}

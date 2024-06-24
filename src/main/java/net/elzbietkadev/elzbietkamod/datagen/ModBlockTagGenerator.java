@@ -34,5 +34,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                 .add(ModBlocks.SUT_ORE.get(), ModBlocks.DEEPSLATE_SUT_ORE.get()).addTag(Tags.Blocks.ORES);
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.SUT_BLOCK.get()).addTag(Tags.Blocks.ORES);
+
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.SUTINKA_LOG.get())
+                .add(ModBlocks.SUTINKA_WOOD.get())
+                .add(ModBlocks.STRIPPED_SUTINKA_LOG.get())
+                .add(ModBlocks.STRIPPED_SUTINKA_WOOD.get());
     }
 }

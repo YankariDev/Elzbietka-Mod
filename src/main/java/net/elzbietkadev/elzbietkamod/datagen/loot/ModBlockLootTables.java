@@ -30,6 +30,14 @@ public class ModBlockLootTables extends BlockLootSubProvider
     @Override
     protected void generate() {
         this.dropSelf(ModBlocks.SUT_BLOCK.get());
+        this.dropSelf(ModBlocks.SUTINKA_LOG.get());
+        this.dropSelf(ModBlocks.SUTINKA_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_SUTINKA_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_SUTINKA_WOOD.get());
+        this.dropSelf(ModBlocks.SUTINKA_SAPLING.get());
+
+        this.add(ModBlocks.SUTINKA_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.SUTINKA_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
 
         this.add(ModBlocks.SUT_ORE.get(),
                 block -> createCooperLikeOreDrops(ModBlocks.SUT_ORE.get(), ModItems.SUT.get()));

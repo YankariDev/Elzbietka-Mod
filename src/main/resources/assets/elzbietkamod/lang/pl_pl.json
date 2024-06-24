@@ -8,8 +8,16 @@
   "item.elzbietkamod.zjebuska_music_disc": "Płyta muzyczna - Zjebuska",
   "item.elzbietkamod.zjebuska_music_disc.desc": "Elżbietka - Zjebuska",
 
-  "block.elzbietkamod.sut_block": "Blok suta",
-  "block.elzbietkamod.sut_ore": "Ruda suta",
+  "block.elzbietkamod.sut_block": "Blok Suta",
+  "block.elzbietkamod.sut_ore": "Ruda Suta",
+  "block.elzbietkamod.deepslate.sut_ore": "Łupkowa ruda Suta",
 
-  "creativetab.elzbietka_tab": "Elzbietka"
+  "block.elzbietkamod.sutinka_log": "Pień Sutinki",
+  "block.elzbietkamod.sutinka_wood": "Drewno Sutinki",
+  "block.elzbietkamod.stripped_sutinka_log": "Okorowany pień Sutinki",
+  "block.elzbietkamod.stripped_sutinka_wood": "Okorowane drewno Sutinki",
+  "block.elzbietkamod.sutinka_leaves": "Liście Sutinki",
+  "block.elzbietkamod.sutinka_sapling": "Sadzonka drzewa Sutinki",
+
+  "creativetab.elzbietka_tab": "Elżbietka"
 }
