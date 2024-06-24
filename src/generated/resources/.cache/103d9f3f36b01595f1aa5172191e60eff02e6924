@@ -1,5 +1,9 @@
-// 1.20.1	2024-06-24T09:03:15.9850162	Registries
+// 1.20.1	2024-06-24T16:59:45.6644148	Registries
 f2f8879d745a2a2b9ee80e0eabf076b338ea07cd data/elzbietkamod/forge/biome_modifier/add_sut_ore.json
+a9ecb40192350345db1cec5453c6935779e0fcab data/elzbietkamod/worldgen/biome/elzbietka_biome.json
+676e590b9a6ea8a1fa4ae91b9f730e4a92e34ed8 data/elzbietkamod/worldgen/configured_feature/sutinka_flower.json
 892846154a84e4999e2143d522c1fffd3ef74146 data/elzbietkamod/worldgen/configured_feature/sutinka_tree.json
 4599537640450a440637e134a025d15290a6f413 data/elzbietkamod/worldgen/configured_feature/sut_ore.json
+1eae0d9edaf98afafade92db510be68033f149bd data/elzbietkamod/worldgen/placed_feature/sutinka_flower_placed.json
+b0b90e62b2511f373bd48eedcf316e805c1127f6 data/elzbietkamod/worldgen/placed_feature/sutinka_tree_placed.json
 b814c4c421bfd73769a1ecb8d5a6525a1c8ace48 data/elzbietkamod/worldgen/placed_feature/sut_ore_placed.json

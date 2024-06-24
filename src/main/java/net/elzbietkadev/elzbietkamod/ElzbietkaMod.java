@@ -5,7 +5,7 @@ import net.elzbietkadev.elzbietkamod.block.ModBlocks;
 import net.elzbietkadev.elzbietkamod.item.ModCreativeModeTabs;
 import net.elzbietkadev.elzbietkamod.item.ModItems;
 import net.elzbietkadev.elzbietkamod.sound.ModSounds;
-import net.minecraft.world.item.CreativeModeTabs;
+import net.elzbietkadev.elzbietkamod.worldgen.biome.ModTerrablender;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
@@ -21,6 +21,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import terrablender.api.SurfaceRuleManager;
 
 @Mod(ElzbietkaMod.MOD_ID)
 public class ElzbietkaMod
@@ -36,6 +37,7 @@ public class ElzbietkaMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModSounds.register(modEventBus);
+        ModTerrablender.registerBiomes();
 
         modEventBus.addListener(this::commonSetup);
 
