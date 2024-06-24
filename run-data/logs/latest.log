@@ -1,214 +1,38 @@
-[24cze2024 18:59:19.413] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\yanka\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.1, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, elzbietkamod, --all, --output, C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\src\generated\resources, --existing, C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\src\main\resources]
-[24cze2024 18:59:19.423] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[24cze2024 18:59:19.832] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[24cze2024 18:59:20.001] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/yanka/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[24cze2024 18:59:20.807] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\yanka\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.1\b9fa98d5c9fa107169a3390a1c8993d2134fbf54\javafmllanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[24cze2024 18:59:20.812] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\yanka\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.1\aaa252b4d4c34d0c02e647d7a2ef3df3bc11d73a\lowcodelanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[24cze2024 18:59:20.817] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\yanka\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.1\1722b26446496b5e686cdf124342e8f7fd33dc91\mclanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[24cze2024 18:59:20.824] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\yanka\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.1\4ed2bfe4ae3a6c27f587d45f58d648db68d19c00\fmlcore-1.20.1-47.3.1.jar is missing mods.toml file
-[24cze2024 18:59:21.047] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[24cze2024 18:59:24.353] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[24cze2024 18:59:24.365] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\yanka\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, elzbietkamod, --all, --output, C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\src\generated\resources, --existing, C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\src\main\resources]
-[24cze2024 18:59:26.053] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\build\createSrgToMcp\output.srg
-[24cze2024 18:59:26.060] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\build\createSrgToMcp\output.srg
-[24cze2024 18:59:27.637] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [elzbietkamod]
-[24cze2024 18:59:36.438] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.1, for MC 1.20.1 with MCP 20230612.114412
-[24cze2024 18:59:36.444] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.1 Initialized
-[24cze2024 18:59:36.469] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[24cze2024 18:59:36.469] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[24cze2024 18:59:36.469] [modloading-worker-0/INFO] [terrablender/]: Registered region elzbietkamod:overworld to index 1 for type OVERWORLD
-[24cze2024 18:59:37.063] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: null
-	Index: 2
-	Listeners:
-		0: NORMAL
-		1: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@31bbf69e handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
-		2: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@55ba7f70 handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
-		3: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@433b8d7f handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
-		4: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@281a78a5 handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
-java.lang.ExceptionInInitializerError
-	at TRANSFORMER/elzbietkamod@0.2/net.elzbietkadev.elzbietkamod.item.ModItems.lambda$static$5(ModItems.java:31)
-	at TRANSFORMER/forge@47.3.1/net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:386)
-	at TRANSFORMER/forge@47.3.1/net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:59)
-	at TRANSFORMER/forge@47.3.1/net.minecraftforge.registries.DeferredRegister.addEntries(DeferredRegister.java:386)
-	at TRANSFORMER/forge@47.3.1/net.minecraftforge.registries.DeferredRegister$EventDispatcher.handleEvent(DeferredRegister.java:328)
-	at TRANSFORMER/forge@47.3.1/net.minecraftforge.registries.__EventDispatcher_handleEvent_RegisterEvent.invoke(.dynamic)
-	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
-	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
-	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
-	at LAYER PLUGIN/javafmllanguage@1.20.1-47.3.1/net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:114)
-	at LAYER PLUGIN/fmlcore@1.20.1-47.3.1/net.minecraftforge.fml.ModLoader.lambda$postEventWithWrapInModOrder$33(ModLoader.java:346)
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
-	at LAYER PLUGIN/fmlcore@1.20.1-47.3.1/net.minecraftforge.fml.ModList.forEachModInOrder(ModList.java:227)
-	at LAYER PLUGIN/fmlcore@1.20.1-47.3.1/net.minecraftforge.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:344)
-	at LAYER PLUGIN/fmlcore@1.20.1-47.3.1/net.minecraftforge.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:337)
-	at TRANSFORMER/forge@47.3.1/net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:329)
-	at TRANSFORMER/forge@47.3.1/net.minecraftforge.common.ForgeStatesProvider.lambda$new$4(ForgeStatesProvider.java:25)
-	at LAYER PLUGIN/fmlcore@1.20.1-47.3.1/net.minecraftforge.fml.ModLoader.handleInlineTransition(ModLoader.java:217)
-	at LAYER PLUGIN/fmlcore@1.20.1-47.3.1/net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$19(ModLoader.java:209)
-	at java.base/java.util.Optional.ifPresent(Optional.java:178)
-	at LAYER PLUGIN/fmlcore@1.20.1-47.3.1/net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:209)
-	at LAYER PLUGIN/fmlcore@1.20.1-47.3.1/net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183)
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
-	at LAYER PLUGIN/fmlcore@1.20.1-47.3.1/net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183)
-	at TRANSFORMER/forge@47.3.1/net.minecraftforge.data.loading.DatagenModLoader.begin(DatagenModLoader.java:43)
-	at TRANSFORMER/minecraft@1.20.1/net.minecraft.data.Main.main(Main.java:90)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.1/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
-	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.1/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.dataService(CommonLaunchHandler.java:107)
-	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.1/net.minecraftforge.fml.loading.targets.ForgeDataUserdevLaunchHandler.devService(ForgeDataUserdevLaunchHandler.java:22)
-	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.1/net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135)
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
-	at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
-Caused by: java.lang.IllegalStateException: Duplicate tier name elzbietkamod:sut
-	at TRANSFORMER/forge@47.3.1/net.minecraftforge.common.TierSortingRegistry.registerTier(TierSortingRegistry.java:67)
-	at TRANSFORMER/elzbietkamod@0.2/net.elzbietkadev.elzbietkamod.item.ModToolTiers.<clinit>(ModToolTiers.java:20)
-	... 42 more
-
-[24cze2024 18:59:37.067] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Caught exception during event RegisterEvent dispatch for modid elzbietkamod
+[24cze2024 19:01:37.912] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\yanka\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.1, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, elzbietkamod, --all, --output, C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\src\generated\resources, --existing, C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\src\main\resources]
+[24cze2024 19:01:37.918] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[24cze2024 19:01:38.090] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[24cze2024 19:01:38.174] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/yanka/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[24cze2024 19:01:38.666] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\yanka\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.1\b9fa98d5c9fa107169a3390a1c8993d2134fbf54\javafmllanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[24cze2024 19:01:38.672] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\yanka\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.1\aaa252b4d4c34d0c02e647d7a2ef3df3bc11d73a\lowcodelanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[24cze2024 19:01:38.679] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\yanka\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.1\1722b26446496b5e686cdf124342e8f7fd33dc91\mclanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[24cze2024 19:01:38.685] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\yanka\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.1\4ed2bfe4ae3a6c27f587d45f58d648db68d19c00\fmlcore-1.20.1-47.3.1.jar is missing mods.toml file
+[24cze2024 19:01:38.882] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[24cze2024 19:01:41.868] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[24cze2024 19:01:41.879] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\yanka\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, elzbietkamod, --all, --output, C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\src\generated\resources, --existing, C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\src\main\resources]
+[24cze2024 19:01:42.536] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\build\createSrgToMcp\output.srg
+[24cze2024 19:01:42.540] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\build\createSrgToMcp\output.srg
+[24cze2024 19:01:43.237] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [elzbietkamod]
+[24cze2024 19:01:51.760] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.1, for MC 1.20.1 with MCP 20230612.114412
+[24cze2024 19:01:51.766] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.1 Initialized
+[24cze2024 19:01:51.788] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: elzbietkamod, class net.elzbietkadev.elzbietkamod.ElzbietkaMod
 java.lang.ExceptionInInitializerError: null
-	at net.elzbietkadev.elzbietkamod.item.ModItems.lambda$static$5(ModItems.java:31) ~[%23196!/:?]
-	at net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:386) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23190%23197!/:?]
-	at net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:59) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23190%23197!/:?]
-	at net.minecraftforge.registries.DeferredRegister.addEntries(DeferredRegister.java:386) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23190%23197!/:?]
-	at net.minecraftforge.registries.DeferredRegister$EventDispatcher.handleEvent(DeferredRegister.java:328) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23190%23197!/:?]
-	at net.minecraftforge.registries.__EventDispatcher_handleEvent_RegisterEvent.invoke(.dynamic) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23190%23197!/:?]
-	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar:?]
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar:?]
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar:?]
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:114) ~[javafmllanguage-1.20.1-47.3.1.jar:?]
-	at net.minecraftforge.fml.ModLoader.lambda$postEventWithWrapInModOrder$33(ModLoader.java:346) ~[fmlcore-1.20.1-47.3.1.jar:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.ModList.forEachModInOrder(ModList.java:227) ~[fmlcore-1.20.1-47.3.1.jar:?]
-	at net.minecraftforge.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:344) ~[fmlcore-1.20.1-47.3.1.jar:?]
-	at net.minecraftforge.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:337) ~[fmlcore-1.20.1-47.3.1.jar:?]
-	at net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:329) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar:?]
-	at net.minecraftforge.common.ForgeStatesProvider.lambda$new$4(ForgeStatesProvider.java:25) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar:?]
-	at net.minecraftforge.fml.ModLoader.handleInlineTransition(ModLoader.java:217) ~[fmlcore-1.20.1-47.3.1.jar:?]
-	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$19(ModLoader.java:209) ~[fmlcore-1.20.1-47.3.1.jar:?]
-	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:209) ~[fmlcore-1.20.1-47.3.1.jar:?]
-	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.1.jar:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.1.jar:?]
-	at net.minecraftforge.data.loading.DatagenModLoader.begin(DatagenModLoader.java:43) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar:?]
-	at net.minecraft.data.Main.main(Main.java:90) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.1.jar:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.dataService(CommonLaunchHandler.java:107) ~[fmlloader-1.20.1-47.3.1.jar:?]
-	at net.minecraftforge.fml.loading.targets.ForgeDataUserdevLaunchHandler.devService(ForgeDataUserdevLaunchHandler.java:22) ~[fmlloader-1.20.1-47.3.1.jar:?]
-	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.3.1.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-Caused by: java.lang.IllegalStateException: Duplicate tier name elzbietkamod:sut
-	at net.minecraftforge.common.TierSortingRegistry.registerTier(TierSortingRegistry.java:67) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23190%23197!/:?]
-	at net.elzbietkadev.elzbietkamod.item.ModToolTiers.<clinit>(ModToolTiers.java:20) ~[%23196!/:?]
-	... 42 more
-[24cze2024 18:59:37.284] [main/FATAL] [net.minecraftforge.registries.GameData/]: Failed to register some entries, see suppressed exceptions for details
-java.lang.RuntimeException: null
-	at net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:315) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar:?]
-	at net.minecraftforge.common.ForgeStatesProvider.lambda$new$4(ForgeStatesProvider.java:25) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar:?]
-	at net.minecraftforge.fml.ModLoader.handleInlineTransition(ModLoader.java:217) ~[fmlcore-1.20.1-47.3.1.jar:?]
-	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$19(ModLoader.java:209) ~[fmlcore-1.20.1-47.3.1.jar:?]
-	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:209) ~[fmlcore-1.20.1-47.3.1.jar:?]
-	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.1.jar:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.1.jar:?]
-	at net.minecraftforge.data.loading.DatagenModLoader.begin(DatagenModLoader.java:43) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar:?]
-	at net.minecraft.data.Main.main(Main.java:90) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.1.jar:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.dataService(CommonLaunchHandler.java:107) ~[fmlloader-1.20.1-47.3.1.jar:?]
-	at net.minecraftforge.fml.loading.targets.ForgeDataUserdevLaunchHandler.devService(ForgeDataUserdevLaunchHandler.java:22) ~[fmlloader-1.20.1-47.3.1.jar:?]
-	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.3.1.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-	Suppressed: net.minecraftforge.fml.ModLoadingException: fml.modloading.errorduringevent
-		at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:118) ~[javafmllanguage-1.20.1-47.3.1.jar:?]
-		at net.minecraftforge.fml.ModLoader.lambda$postEventWithWrapInModOrder$33(ModLoader.java:346) ~[fmlcore-1.20.1-47.3.1.jar:?]
-		at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-		at net.minecraftforge.fml.ModList.forEachModInOrder(ModList.java:227) ~[fmlcore-1.20.1-47.3.1.jar:?]
-		at net.minecraftforge.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:344) ~[fmlcore-1.20.1-47.3.1.jar:?]
-		at net.minecraftforge.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:337) ~[fmlcore-1.20.1-47.3.1.jar:?]
-		at net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:329) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar:?]
-		at net.minecraftforge.common.ForgeStatesProvider.lambda$new$4(ForgeStatesProvider.java:25) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar:?]
-		at net.minecraftforge.fml.ModLoader.handleInlineTransition(ModLoader.java:217) ~[fmlcore-1.20.1-47.3.1.jar:?]
-		at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$19(ModLoader.java:209) ~[fmlcore-1.20.1-47.3.1.jar:?]
-		at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
-		at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:209) ~[fmlcore-1.20.1-47.3.1.jar:?]
-		at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.1.jar:?]
-		at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-		at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.1.jar:?]
-		at net.minecraftforge.data.loading.DatagenModLoader.begin(DatagenModLoader.java:43) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar:?]
-		at net.minecraft.data.Main.main(Main.java:90) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.1.jar:?]
-		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.dataService(CommonLaunchHandler.java:107) ~[fmlloader-1.20.1-47.3.1.jar:?]
-		at net.minecraftforge.fml.loading.targets.ForgeDataUserdevLaunchHandler.devService(ForgeDataUserdevLaunchHandler.java:22) ~[fmlloader-1.20.1-47.3.1.jar:?]
-		at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.3.1.jar:?]
-		at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-	Caused by: java.lang.ExceptionInInitializerError
-		at net.elzbietkadev.elzbietkamod.item.ModItems.lambda$static$5(ModItems.java:31) ~[%23196!/:?]
-		at net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:386) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23190%23197!/:?]
-		at net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:59) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23190%23197!/:?]
-		at net.minecraftforge.registries.DeferredRegister.addEntries(DeferredRegister.java:386) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23190%23197!/:?]
-		at net.minecraftforge.registries.DeferredRegister$EventDispatcher.handleEvent(DeferredRegister.java:328) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23190%23197!/:?]
-		at net.minecraftforge.registries.__EventDispatcher_handleEvent_RegisterEvent.invoke(.dynamic) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23190%23197!/:?]
-		at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar:?]
-		at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar:?]
-		at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar:?]
-		at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:114) ~[javafmllanguage-1.20.1-47.3.1.jar:?]
-		... 32 more
-	Caused by: java.lang.IllegalStateException: Duplicate tier name elzbietkamod:sut
-		at net.minecraftforge.common.TierSortingRegistry.registerTier(TierSortingRegistry.java:67) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23190%23197!/:?]
-		at net.elzbietkadev.elzbietkamod.item.ModToolTiers.<clinit>(ModToolTiers.java:20) ~[%23196!/:?]
-		at net.elzbietkadev.elzbietkamod.item.ModItems.lambda$static$5(ModItems.java:31) ~[%23196!/:?]
-		at net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:386) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23190%23197!/:?]
-		at net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:59) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23190%23197!/:?]
-		at net.minecraftforge.registries.DeferredRegister.addEntries(DeferredRegister.java:386) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23190%23197!/:?]
-		at net.minecraftforge.registries.DeferredRegister$EventDispatcher.handleEvent(DeferredRegister.java:328) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23190%23197!/:?]
-		at net.minecraftforge.registries.__EventDispatcher_handleEvent_RegisterEvent.invoke(.dynamic) ~[forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23190%23197!/:?]
-		at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar:?]
-		at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar:?]
-		at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar:?]
-		at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:114) ~[javafmllanguage-1.20.1-47.3.1.jar:?]
-		... 32 more
-[24cze2024 18:59:37.297] [main/FATAL] [net.minecraftforge.registries.GameData/]: Detected errors during registry event dispatch, rolling back to VANILLA state
-[24cze2024 18:59:38.936] [main/FATAL] [net.minecraftforge.registries.GameData/]: Detected errors during registry event dispatch, roll back to VANILLA complete
+	at net.elzbietkadev.elzbietkamod.worldgen.biome.ModTerrablender.registerBiomes(ModTerrablender.java:9) ~[%23196!/:?]
+	at net.elzbietkadev.elzbietkamod.ElzbietkaMod.<init>(ElzbietkaMod.java:40) ~[%23196!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.1.jar%23192!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.1.jar%23195!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot read field "vanillaOverworldRegionWeight" because "terrablender.core.TerraBlender.CONFIG" is null
+	at terrablender.api.Regions.<clinit>(Regions.java:142) ~[TerraBlender-forge-1.20.1-3.0.0.169_mapped_official_1.20.1.jar%23198!/:3.0.0.169]
+	... 16 more
+[24cze2024 19:01:52.193] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 1 errors found
