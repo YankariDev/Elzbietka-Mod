@@ -2,6 +2,7 @@ package net.elzbietkadev.elzbietkamod.datagen;
 
 import net.elzbietkadev.elzbietkamod.ElzbietkaMod;
 import net.elzbietkadev.elzbietkamod.block.ModBlocks;
+import net.elzbietkadev.elzbietkamod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;

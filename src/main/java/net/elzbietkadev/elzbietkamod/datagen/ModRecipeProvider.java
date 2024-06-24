@@ -3,6 +3,7 @@ package net.elzbietkadev.elzbietkamod.datagen;
 import net.elzbietkadev.elzbietkamod.ElzbietkaMod;
 import net.elzbietkadev.elzbietkamod.block.ModBlocks;
 import net.elzbietkadev.elzbietkamod.item.ModItems;
+import net.elzbietkadev.elzbietkamod.util.ModTags;
 import net.minecraft.advancements.critereon.InventoryChangeTrigger;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
@@ -113,6 +114,51 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("AAA")
                 .define('A', ModBlocks.SUTINKA_PLANKS.get())
                 .unlockedBy(getHasName(ModBlocks.SUTINKA_PLANKS.get()), has(ModBlocks.SUTINKA_PLANKS.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModItems.SUT_HOE.get())
+                .pattern("BB ")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('A', Items.STICK)
+                .define('B', ModItems.SUT.get())
+                .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModItems.SUT_SHOVEL.get())
+                .pattern(" B ")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('A', Items.STICK)
+                .define('B', ModItems.SUT.get())
+                .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModItems.SUT_SWORD.get())
+                .pattern(" B ")
+                .pattern(" B ")
+                .pattern(" A ")
+                .define('A', Items.STICK)
+                .define('B', ModItems.SUT.get())
+                .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModItems.SUT_AXE.get())
+                .pattern("BB ")
+                .pattern("BA ")
+                .pattern(" A ")
+                .define('A', Items.STICK)
+                .define('B', ModItems.SUT.get())
+                .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModItems.SUT_PICKAXE.get())
+                .pattern("BBB")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('A', Items.STICK)
+                .define('B', ModItems.SUT.get())
+                .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
                 .save(consumer);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD,ModItems.SUT.get(), 9)

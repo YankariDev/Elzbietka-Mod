@@ -38,6 +38,12 @@ public class ModItemModelProvider extends ItemModelProvider
         evenSimplerBlockItem(ModBlocks.SUTINKA_PLANKS_SLAB);
         evenSimplerBlockItem(ModBlocks.SUTINKA_PLANKS_PRESSURE_PLATE);
         evenSimplerBlockItem(ModBlocks.SUTINKA_PLANKS_FENCE_GATE);
+
+        handheldItem(ModItems.SUT_AXE);
+        handheldItem(ModItems.SUT_HOE);
+        handheldItem(ModItems.SUT_PICKAXE);
+        handheldItem(ModItems.SUT_SWORD);
+        handheldItem(ModItems.SUT_SHOVEL);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item)
@@ -71,6 +77,12 @@ public class ModItemModelProvider extends ItemModelProvider
     public void buttonItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/button_inventory"))
                 .texture("texture",  new ResourceLocation(ElzbietkaMod.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
+    }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(ElzbietkaMod.MOD_ID,"item/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> item) {

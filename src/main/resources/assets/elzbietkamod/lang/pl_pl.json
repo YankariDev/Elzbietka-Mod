@@ -29,5 +29,11 @@
   "block.elzbietkamod.sutinka_door": "Sutinkowe drzwi",
   "block.elzbietkamod.sutinka_trapdoor": "Sutinkowa klapa",
 
+  "item.elzbietkamod.sut_sword": "Sut Miecz",
+  "item.elzbietkamod.sut_hoe": "Sut Motyka",
+  "item.elzbietkamod.sut_shovel": "Sut Łopata",
+  "item.elzbietkamod.sut_axe": "Sut Siekiera",
+  "item.elzbietkamod.sut_pickaxe": "Sut Kilof",
+
   "creativetab.elzbietka_tab": "Elżbietka"
 }

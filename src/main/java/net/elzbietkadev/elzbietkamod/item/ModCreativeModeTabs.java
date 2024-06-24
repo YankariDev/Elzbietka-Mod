@@ -41,6 +41,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SUTINKA_SEEDS.get());
                         output.accept(ModBlocks.SUTINKA_SAPLING.get());
                         output.accept(ModItems.ZJEBUSKA_MUSIC_DISC.get());
+                        output.accept(ModItems.SUT_HOE.get());
+                        output.accept(ModItems.SUT_SWORD.get());
+                        output.accept(ModItems.SUT_SHOVEL.get());
+                        output.accept(ModItems.SUT_AXE.get());
+                        output.accept(ModItems.SUT_PICKAXE.get());
                     })
                     .build());
 

@@ -29,5 +29,11 @@
   "block.elzbietkamod.sutinka_door": "Nippla Door",
   "block.elzbietkamod.sutinka_trapdoor": "Nippla TrapDoor",
 
+  "item.elzbietkamod.sut_sword": "Nipple Sword",
+  "item.elzbietkamod.sut_hoe": "Nipple Hoe",
+  "item.elzbietkamod.sut_shovel": "Nipple Shovel",
+  "item.elzbietkamod.sut_axe": "Nipple Axe",
+  "item.elzbietkamod.sut_pickaxe": "Nipple Pickaxe",
+
   "creativetab.elzbietka_tab": "Elżbietka"
 }
