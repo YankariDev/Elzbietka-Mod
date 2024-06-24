@@ -24,5 +24,8 @@ public class ModOverworldRegion extends Region
         this.addModifiedVanillaOverworldBiomes(mapper, modifiedVanillaOverworldBuilder -> {
             modifiedVanillaOverworldBuilder.replaceBiome(Biomes.PLAINS, ModBiomes.ELZBIETKA_BIOME);
         });
+        this.addModifiedVanillaOverworldBiomes(mapper, modifiedVanillaOverworldBuilder -> {
+            modifiedVanillaOverworldBuilder.replaceBiome(Biomes.THE_END, ModBiomes.ELZBIETKA_LAND);
+        });
     }
 }

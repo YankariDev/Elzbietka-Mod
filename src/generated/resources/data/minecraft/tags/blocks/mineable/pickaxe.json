@@ -1,5 +1,10 @@
 {
   "values": [
+    "elzbietkamod:super_sut_stone",
+    "elzbietkamod:super_sut_stone_bricks",
+    "elzbietkamod:super_sut_stone_bricks_stairs",
+    "elzbietkamod:super_sut_stone_bricks_slab",
+    "elzbietkamod:super_sut_stone_bricks_wall",
     "elzbietkamod:sut_ore",
     "elzbietkamod:sut_block",
     "elzbietkamod:deepslate_sut_ore",

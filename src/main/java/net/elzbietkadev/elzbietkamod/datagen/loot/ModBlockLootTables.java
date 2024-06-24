@@ -47,7 +47,7 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.add(ModBlocks.SUTINKA_PLANKS_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.SUTINKA_PLANKS_SLAB.get()));
         this.add(ModBlocks.SUTINKA_PLANKS_DOOR.get(),
-                block -> createSlabItemTable(ModBlocks.SUTINKA_PLANKS_DOOR.get()));
+                block -> createDoorTable(ModBlocks.SUTINKA_PLANKS_DOOR.get()));
 
         this.add(ModBlocks.SUTINKA_LEAVES.get(), block ->
                 createLeavesDrops(block, ModBlocks.SUTINKA_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));

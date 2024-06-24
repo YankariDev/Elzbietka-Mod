@@ -3,6 +3,14 @@
     "elzbietkamod:sutinka_log",
     "elzbietkamod:sutinka_wood",
     "elzbietkamod:stripped_sutinka_log",
-    "elzbietkamod:stripped_sutinka_wood"
+    "elzbietkamod:stripped_sutinka_wood",
+    "elzbietkamod:sutinka_planks",
+    "elzbietkamod:sutinka_stairs",
+    "elzbietkamod:sutinka_slab",
+    "elzbietkamod:sutinka_fence",
+    "elzbietkamod:sutinka_fence_gate",
+    "elzbietkamod:sutinka_button",
+    "elzbietkamod:sutinka_door",
+    "elzbietkamod:sutinka_trapdoor"
   ]
 }

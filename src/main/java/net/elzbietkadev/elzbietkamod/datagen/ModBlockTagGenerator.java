@@ -54,6 +54,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                 .add(ModBlocks.SUTINKA_PLANKS_FENCE_GATE.get())
                 .add(ModBlocks.SUTINKA_PLANKS_BUTTON.get())
                 .add(ModBlocks.SUTINKA_PLANKS_DOOR.get())
+                .add(ModBlocks.SUTINKA_PLANKS_PRESSURE_PLATE.get())
                 .add(ModBlocks.SUTINKA_PLANKS_TRAPDOOR.get());
         this.tag(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(ModBlocks.SUT_BLOCK.get());

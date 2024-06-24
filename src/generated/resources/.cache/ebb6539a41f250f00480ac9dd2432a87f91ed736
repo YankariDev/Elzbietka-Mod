@@ -1,11 +1,11 @@
-// 1.20.1	2024-06-24T19:26:08.2841436	Tags for minecraft:block mod id elzbietkamod
+// 1.20.1	2024-06-24T19:44:03.7632255	Tags for minecraft:block mod id elzbietkamod
 e2d0c3d97f395e1528aaf32fcd48f55a1e7d5020 data/minecraft/tags/blocks/fences.json
 52684b3039a5f0b3a5392b498583be5ebe32587c data/minecraft/tags/blocks/fence_gates.json
-9847a7a8c894c69ef60393bc3a786e6c4c96bf9f data/minecraft/tags/blocks/logs_that_burn.json
-85e8c69083a895b9ff1f0837145cfe429794343f data/minecraft/tags/blocks/mineable/axe.json
-0489f2a97051846582bc75fa34cb6f603afe051f data/minecraft/tags/blocks/mineable/pickaxe.json
+603a9dd3f8041b2258be822687c462cecc2c7f4c data/minecraft/tags/blocks/logs_that_burn.json
+cb8f31fde2c3f01912e1aa81f209ffd522fbb0b7 data/minecraft/tags/blocks/mineable/axe.json
+532daea566e9412010d7370b5a2af9aea4ed6d99 data/minecraft/tags/blocks/mineable/pickaxe.json
 85e8c69083a895b9ff1f0837145cfe429794343f data/minecraft/tags/blocks/mineable/shovel.json
-177842128dded301615b72f756fb81de7a478edc data/minecraft/tags/blocks/needs_diamond_tool.json
+82a70f82f410b850baa553351f90ec98c0115e69 data/minecraft/tags/blocks/needs_diamond_tool.json
 7f57f6ca4f7a667e71bfefbc8f3d8498b1e7f7b7 data/minecraft/tags/blocks/needs_iron_tool.json
 1090f98c84b00a423ac2ca9e89d83438885c679b data/minecraft/tags/blocks/needs_stone_tool.json
 156d4977a522d39a5aed9c996ec3099b6660e8fa data/minecraft/tags/blocks/walls.json
