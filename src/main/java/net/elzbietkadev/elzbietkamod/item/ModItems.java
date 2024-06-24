@@ -47,6 +47,20 @@ public class ModItems {
     public static final RegistryObject<Item> SUT_BOOTS = ITEMS.register("sut_boots",
             () -> new ArmorItem(ModArmorMaterials.SUT, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+
+
+    public static final RegistryObject<Item> SUPER_SUT = ITEMS.register("super_sut",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SUPER_SUT_HELMET = ITEMS.register("super_sut_helmet",
+            () -> new ArmorItem(ModArmorMaterials.SUPER_SUT, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> SUPER_SUT_CHESTPLATE = ITEMS.register("super_sut_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.SUPER_SUT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> SUPER_SUT_LEGGINGS = ITEMS.register("super_sut_leggings",
+            () -> new ArmorItem(ModArmorMaterials.SUPER_SUT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> SUPER_SUT_BOOTS = ITEMS.register("super_sut_boots",
+            () -> new ArmorItem(ModArmorMaterials.SUPER_SUT, ArmorItem.Type.BOOTS, new Item.Properties()));
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);

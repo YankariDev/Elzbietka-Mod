@@ -12,7 +12,9 @@ import java.util.function.Supplier;
 public enum ModArmorMaterials implements ArmorMaterial
 {
     SUT("sut", 15, new int[]{ 3, 6, 7, 3 }, 15,
-            SoundEvents.ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(ModItems.SUT.get()));
+            SoundEvents.ARMOR_EQUIP_IRON, 1f, 0f, () -> Ingredient.of(ModItems.SUT.get())),
+    SUPER_SUT("super_sut", 30, new int[]{ 4, 7, 9, 4 }, 6,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 3f, 0.1f, () -> Ingredient.of(ModItems.SUPER_SUT.get()));
 
     private final String name;
     private final int durabilityMultiplier;

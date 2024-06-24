@@ -76,6 +76,14 @@ public class ModItemModelProvider extends ItemModelProvider
         trimmedArmorItem(ModItems.SUT_BOOTS);
 
         simpleBlockItemBlockTexture(ModBlocks.SUTINKA_FLOWER);
+
+
+        simpleItem(ModItems.SUPER_SUT);
+
+        trimmedArmorItem(ModItems.SUPER_SUT_HELMET);
+        trimmedArmorItem(ModItems.SUPER_SUT_CHESTPLATE);
+        trimmedArmorItem(ModItems.SUPER_SUT_LEGGINGS);
+        trimmedArmorItem(ModItems.SUPER_SUT_BOOTS);
     }
 
     public void wallItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {

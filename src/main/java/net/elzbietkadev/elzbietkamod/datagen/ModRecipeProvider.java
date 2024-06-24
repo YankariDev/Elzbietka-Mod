@@ -137,7 +137,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.SUTINKA_PLANKS.get()), has(ModBlocks.SUTINKA_PLANKS.get()))
                 .save(consumer);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModItems.SUT_HOE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUT_HOE.get())
                 .pattern("BB ")
                 .pattern(" A ")
                 .pattern(" A ")
@@ -146,7 +146,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
                 .save(consumer);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModItems.SUT_SHOVEL.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUT_SHOVEL.get())
                 .pattern(" B ")
                 .pattern(" A ")
                 .pattern(" A ")
@@ -155,7 +155,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
                 .save(consumer);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModItems.SUT_SWORD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUT_SWORD.get())
                 .pattern(" B ")
                 .pattern(" B ")
                 .pattern(" A ")
@@ -164,7 +164,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
                 .save(consumer);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModItems.SUT_AXE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUT_AXE.get())
                 .pattern("BB ")
                 .pattern("BA ")
                 .pattern(" A ")
@@ -173,12 +173,41 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
                 .save(consumer);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModItems.SUT_PICKAXE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUT_PICKAXE.get())
                 .pattern("BBB")
                 .pattern(" A ")
                 .pattern(" A ")
                 .define('A', Items.STICK)
                 .define('B', ModItems.SUT.get())
+                .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUT_HELMET.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("   ")
+                .define('A', ModItems.SUT.get())
+                .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUT_CHESTPLATE.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.SUT.get())
+                .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUT_LEGGINGS.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.SUT.get())
+                .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SUT_BOOTS.get())
+                .pattern("   ")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.SUT.get())
                 .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
                 .save(consumer);
 

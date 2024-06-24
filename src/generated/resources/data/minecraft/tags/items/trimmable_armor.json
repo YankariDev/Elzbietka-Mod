@@ -3,6 +3,10 @@
     "elzbietkamod:sut_helmet",
     "elzbietkamod:sut_chestplate",
     "elzbietkamod:sut_leggings",
-    "elzbietkamod:sut_boots"
+    "elzbietkamod:sut_boots",
+    "elzbietkamod:super_sut_helmet",
+    "elzbietkamod:super_sut_chestplate",
+    "elzbietkamod:super_sut_leggings",
+    "elzbietkamod:super_sut_boots"
   ]
 }

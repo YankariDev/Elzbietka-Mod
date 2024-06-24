@@ -35,6 +35,10 @@ public class ModItemTagGenerator extends ItemTagsProvider
                 .add(ModItems.SUT_HELMET.get())
                 .add(ModItems.SUT_CHESTPLATE.get())
                 .add(ModItems.SUT_LEGGINGS.get())
-                .add(ModItems.SUT_BOOTS.get());
+                .add(ModItems.SUT_BOOTS.get())
+                .add(ModItems.SUPER_SUT_HELMET.get())
+                .add(ModItems.SUPER_SUT_CHESTPLATE.get())
+                .add(ModItems.SUPER_SUT_LEGGINGS.get())
+                .add(ModItems.SUPER_SUT_BOOTS.get());
     }
 }
