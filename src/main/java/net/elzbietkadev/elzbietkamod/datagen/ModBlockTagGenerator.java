@@ -32,18 +32,38 @@ public class ModBlockTagGenerator extends BlockTagsProvider
     protected void addTags(HolderLookup.Provider provider) {
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.SUT_ORE.get(),
-                        ModBlocks.SUT_BLOCK.get(),
-                        ModBlocks.DEEPSLATE_SUT_ORE.get(),
-                        ModBlocks.SUPER_SUT_ORE.get());
+                .add(ModBlocks.SUPER_SUT_STONE.get())
+                .add(ModBlocks.SUPER_SUT_STONE_BRICKS.get())
+                .add(ModBlocks.SUPER_SUT_STONE_BRICKS_STAIRS.get())
+                .add(ModBlocks.SUPER_SUT_STONE_BRICKS_SLAB.get())
+                .add(ModBlocks.SUPER_SUT_STONE_BRICKS_WALL.get())
+                .add(ModBlocks.SUT_ORE.get())
+                .add(ModBlocks.SUT_BLOCK.get())
+                .add(ModBlocks.DEEPSLATE_SUT_ORE.get())
+                .add(ModBlocks.SUPER_SUT_ORE.get());
         this.tag(BlockTags.MINEABLE_WITH_AXE)
-                .add(ModBlocks.SUT_BLOCK.get());
+                .add(ModBlocks.SUTINKA_LOG.get())
+                .add(ModBlocks.SUTINKA_WOOD.get())
+                .add(ModBlocks.STRIPPED_SUTINKA_LOG.get())
+                .add(ModBlocks.STRIPPED_SUTINKA_WOOD.get())
+                .add(ModBlocks.SUT_BLOCK.get())
+                .add(ModBlocks.SUTINKA_PLANKS.get())
+                .add(ModBlocks.SUTINKA_PLANKS_STAIRS.get())
+                .add(ModBlocks.SUTINKA_PLANKS_SLAB.get())
+                .add(ModBlocks.SUTINKA_PLANKS_FENCE.get())
+                .add(ModBlocks.SUTINKA_PLANKS_FENCE_GATE.get())
+                .add(ModBlocks.SUTINKA_PLANKS_BUTTON.get())
+                .add(ModBlocks.SUTINKA_PLANKS_DOOR.get())
+                .add(ModBlocks.SUTINKA_PLANKS_TRAPDOOR.get());
         this.tag(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(ModBlocks.SUT_BLOCK.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.SUPER_SUT_STONE.get())
                 .add(ModBlocks.SUPER_SUT_STONE_BRICKS.get())
+                .add(ModBlocks.SUPER_SUT_STONE_BRICKS_STAIRS.get())
+                .add(ModBlocks.SUPER_SUT_STONE_BRICKS_SLAB.get())
+                .add(ModBlocks.SUPER_SUT_STONE_BRICKS_WALL.get())
                 .add(ModBlocks.SUPER_SUT_ORE.get()).addTag(Tags.Blocks.ORES);
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.SUT_ORE.get(), ModBlocks.DEEPSLATE_SUT_ORE.get()).addTag(Tags.Blocks.ORES);
@@ -54,7 +74,15 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                 .add(ModBlocks.SUTINKA_LOG.get())
                 .add(ModBlocks.SUTINKA_WOOD.get())
                 .add(ModBlocks.STRIPPED_SUTINKA_LOG.get())
-                .add(ModBlocks.STRIPPED_SUTINKA_WOOD.get());
+                .add(ModBlocks.STRIPPED_SUTINKA_WOOD.get())
+                .add(ModBlocks.SUTINKA_PLANKS.get())
+                .add(ModBlocks.SUTINKA_PLANKS_STAIRS.get())
+                .add(ModBlocks.SUTINKA_PLANKS_SLAB.get())
+                .add(ModBlocks.SUTINKA_PLANKS_FENCE.get())
+                .add(ModBlocks.SUTINKA_PLANKS_FENCE_GATE.get())
+                .add(ModBlocks.SUTINKA_PLANKS_BUTTON.get())
+                .add(ModBlocks.SUTINKA_PLANKS_DOOR.get())
+                .add(ModBlocks.SUTINKA_PLANKS_TRAPDOOR.get());
 
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.SUTINKA_PLANKS_FENCE.get());
