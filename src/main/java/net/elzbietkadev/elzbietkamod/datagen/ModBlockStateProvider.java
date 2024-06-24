@@ -49,20 +49,26 @@ public class ModBlockStateProvider extends BlockStateProvider
         makeSutinkaCrop((CropBlock) ModBlocks.SUTINKA_CROP.get(), "sutinki_stage", "sutinki_stage");
 
         stairsBlock(((StairBlock) ModBlocks.SUTINKA_PLANKS_STAIRS.get()), blockTexture(ModBlocks.SUTINKA_PLANKS.get()));
-        slabBlock(((SlabBlock) ModBlocks.SUTINKA_PLANKS_SLAB.get()), blockTexture(ModBlocks.SUTINKA_PLANKS.get()), blockTexture(ModBlocks.SUTINKA_PLANKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.SUTINKA_PLANKS_SLAB.get()), blockTexture(ModBlocks.SUTINKA_PLANKS.get()),
+                blockTexture(ModBlocks.SUTINKA_PLANKS.get()));
 
         buttonBlock(((ButtonBlock) ModBlocks.SUTINKA_PLANKS_BUTTON.get()), blockTexture(ModBlocks.SUTINKA_PLANKS.get()));
-        pressurePlateBlock(((PressurePlateBlock) ModBlocks.SUTINKA_PLANKS_PRESSURE_PLATE.get()), blockTexture(ModBlocks.SUTINKA_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModBlocks.SUTINKA_PLANKS_PRESSURE_PLATE.get()),
+                blockTexture(ModBlocks.SUTINKA_PLANKS.get()));
 
         fenceBlock(((FenceBlock) ModBlocks.SUTINKA_PLANKS_FENCE.get()), blockTexture(ModBlocks.SUTINKA_PLANKS.get()));
-        fenceGateBlock(((FenceGateBlock) ModBlocks.SUTINKA_PLANKS_FENCE_GATE.get()), blockTexture(ModBlocks.SUTINKA_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) ModBlocks.SUTINKA_PLANKS_FENCE_GATE.get()),
+                blockTexture(ModBlocks.SUTINKA_PLANKS.get()));
 
-        doorBlockWithRenderType(((DoorBlock) ModBlocks.SUTINKA_PLANKS_DOOR.get()), modLoc("block/sutinka_door_bottom"), modLoc("block/sutinka_door_top"), "cutout");
-        trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.SUTINKA_PLANKS_TRAPDOOR.get()), modLoc("block/sutinka_trapdoor"), true, "cutout");
+        doorBlockWithRenderType(((DoorBlock) ModBlocks.SUTINKA_PLANKS_DOOR.get()),
+                modLoc("block/sutinka_door_bottom"), modLoc("block/sutinka_door_top"), "cutout");
+        trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.SUTINKA_PLANKS_TRAPDOOR.get()),
+                modLoc("block/sutinka_trapdoor"), true, "cutout");
 
         simpleBlockWithItem(ModBlocks.SUTINKA_FLOWER.get(), models().cross(blockTexture(ModBlocks.SUTINKA_FLOWER.get()).getPath(),
                 blockTexture(ModBlocks.SUTINKA_FLOWER.get())).renderType("cutout"));
-        simpleBlockWithItem(ModBlocks.POTTED_SUTINKA_FLOWER.get(), models().singleTexture("potted_sutinka_flower", new ResourceLocation("flower_pot_cross"), "plant",
+        simpleBlockWithItem(ModBlocks.POTTED_SUTINKA_FLOWER.get(), models().singleTexture("potted_sutinka_flower",
+                new ResourceLocation("flower_pot_cross"), "plant",
                 blockTexture(ModBlocks.SUTINKA_FLOWER.get())).renderType("cutout"));
 
 
@@ -70,6 +76,10 @@ public class ModBlockStateProvider extends BlockStateProvider
 
         blockWithItem(ModBlocks.SUPER_SUT_STONE);
         blockWithItem(ModBlocks.SUPER_SUT_STONE_BRICKS);
+        stairsBlock(((StairBlock) ModBlocks.SUPER_SUT_STONE_BRICKS_STAIRS.get()), blockTexture(ModBlocks.SUPER_SUT_STONE_BRICKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.SUPER_SUT_STONE_BRICKS_SLAB.get()), blockTexture(ModBlocks.SUPER_SUT_STONE_BRICKS.get()),
+                blockTexture(ModBlocks.SUPER_SUT_STONE_BRICKS.get()));
+        wallBlock(((WallBlock) ModBlocks.SUPER_SUT_STONE_BRICKS_WALL.get()), blockTexture(ModBlocks.SUPER_SUT_STONE_BRICKS.get()));
     }
 
     public void makeSutinkaCrop(CropBlock block, String modelName, String textureName)

@@ -114,6 +114,13 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.END_STONE)));
     public static final RegistryObject<Block> SUPER_SUT_STONE_BRICKS = registerBlock("super_sut_stone_bricks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.END_STONE_BRICKS)));
+    public static final RegistryObject<Block> SUPER_SUT_STONE_BRICKS_STAIRS = registerBlock("super_sut_stone_bricks_stairs",
+            () -> new StairBlock(() -> ModBlocks.SUTINKA_PLANKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.END_STONE_BRICKS)));
+    public static final RegistryObject<Block> SUPER_SUT_STONE_BRICKS_SLAB = registerBlock("super_sut_stone_bricks_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE_BRICKS)));
+    public static final RegistryObject<Block> SUPER_SUT_STONE_BRICKS_WALL = registerBlock("super_sut_stone_bricks_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE_BRICKS)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {

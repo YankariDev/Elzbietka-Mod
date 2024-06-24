@@ -70,6 +70,11 @@ public class ModBlockLootTables extends BlockLootSubProvider
 
         this.dropSelf(ModBlocks.SUPER_SUT_STONE.get());
         this.dropSelf(ModBlocks.SUPER_SUT_STONE_BRICKS.get());
+
+        this.dropSelf(ModBlocks.SUPER_SUT_STONE_BRICKS_STAIRS.get());
+        this.add(ModBlocks.SUPER_SUT_STONE_BRICKS_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SUPER_SUT_STONE_BRICKS_SLAB.get()));
+        this.dropSelf(ModBlocks.SUPER_SUT_STONE_BRICKS_WALL.get());
     }
 
     protected LootTable.Builder createCooperLikeOreDrops(Block pBlock, Item item)

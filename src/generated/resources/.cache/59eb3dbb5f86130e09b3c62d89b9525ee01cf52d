@@ -1,10 +1,13 @@
-// 1.20.1	2024-06-24T17:41:50.9780342	Loot Tables
+// 1.20.1	2024-06-24T18:24:47.2531561	Loot Tables
 afee2708e2e87d09d017c9617c077657fa1c1bc2 data/elzbietkamod/loot_tables/blocks/deepslate_sut_ore.json
 f1f1e2657bf47175d18d991bcc870aa6b887aefa data/elzbietkamod/loot_tables/blocks/potted_sutinka_flower.json
 0ef2a1d8d08e12c36013faf5d5ba0284dab9bd27 data/elzbietkamod/loot_tables/blocks/stripped_sutinka_log.json
 3f98c45475d76831523d8273646f92d46ed8ae54 data/elzbietkamod/loot_tables/blocks/stripped_sutinka_wood.json
 bcf47b037505b06e6788b90d4f79d8782bff5733 data/elzbietkamod/loot_tables/blocks/super_sut_stone.json
 4bb78fa973286c5c2c03fd8da6373ef2bc7c268d data/elzbietkamod/loot_tables/blocks/super_sut_stone_bricks.json
+4c8418601bedb0a74bf51b9ea5b3fa61f884219f data/elzbietkamod/loot_tables/blocks/super_sut_stone_bricks_slab.json
+7be3ff637450aecd28b337dfa14686c40d7eb63f data/elzbietkamod/loot_tables/blocks/super_sut_stone_bricks_stairs.json
+d6cf5930a0c9d7efe6a5c40cc743821a0a4b334d data/elzbietkamod/loot_tables/blocks/super_sut_stone_bricks_wall.json
 f4e22917ef63fcec7bc84efac07b00c54703e4c2 data/elzbietkamod/loot_tables/blocks/sutinka_button.json
 5ab9e8b02ddf4823760d64032bfebd47aacadb3e data/elzbietkamod/loot_tables/blocks/sutinka_crop.json
 8feef9028467b4c88c1e430007230c5f0f9ee72e data/elzbietkamod/loot_tables/blocks/sutinka_door.json

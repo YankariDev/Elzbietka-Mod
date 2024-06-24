@@ -73,6 +73,27 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModBlocks.SUTINKA_PLANKS.get())
                 .unlockedBy(getHasName(ModBlocks.SUTINKA_PLANKS.get()), has(ModBlocks.SUTINKA_PLANKS.get()))
                 .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUPER_SUT_STONE_BRICKS_STAIRS.get(), 4)
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', ModBlocks.SUPER_SUT_STONE_BRICKS.get())
+                .unlockedBy(getHasName(ModBlocks.SUPER_SUT_STONE_BRICKS.get()), has(ModBlocks.SUPER_SUT_STONE_BRICKS.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUPER_SUT_STONE_BRICKS_SLAB.get(), 6)
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AAA")
+                .define('A', ModBlocks.SUPER_SUT_STONE_BRICKS.get())
+                .unlockedBy(getHasName(ModBlocks.SUPER_SUT_STONE_BRICKS.get()), has(ModBlocks.SUPER_SUT_STONE_BRICKS.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUPER_SUT_STONE_BRICKS_WALL.get(), 6)
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModBlocks.SUPER_SUT_STONE_BRICKS.get())
+                .unlockedBy(getHasName(ModBlocks.SUPER_SUT_STONE_BRICKS.get()), has(ModBlocks.SUPER_SUT_STONE_BRICKS.get()))
+                .save(consumer);
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUTINKA_PLANKS_SLAB.get(), 6)
                 .pattern("   ")
                 .pattern("   ")
@@ -83,7 +104,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUTINKA_PLANKS_PRESSURE_PLATE.get())
                 .pattern("AA ")
                 .define('A', ModBlocks.SUTINKA_PLANKS.get())
-                .unlockedBy(getHasName(ModBlocks.SUTINKA_PLANKS.get()), has(ModBlocks.SUTINKA_PLANKS.get()))
+                .unlockedBy(getHasName(ModBlocks.SUTINKA_PLANKS.get()), has(ModBlocks.SUPER_SUT_STONE_BRICKS.get()))
                 .save(consumer);
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUTINKA_PLANKS_FENCE.get(), 6)
                 .pattern("   ")

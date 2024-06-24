@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "elzbietkamod:block/super_sut_stone_bricks_slab"
+    },
+    "type=double": {
+      "model": "elzbietkamod:block/super_sut_stone_bricks"
+    },
+    "type=top": {
+      "model": "elzbietkamod:block/super_sut_stone_bricks_slab_top"
+    }
+  }
+}

@@ -53,8 +53,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SUT_HELMET.get());
 
 
+
                         output.accept(ModBlocks.SUPER_SUT_STONE.get());
                         output.accept(ModBlocks.SUPER_SUT_STONE_BRICKS.get());
+                        output.accept(ModBlocks.SUPER_SUT_STONE_BRICKS_STAIRS.get());
+                        output.accept(ModBlocks.SUPER_SUT_STONE_BRICKS_SLAB.get());
+                        output.accept(ModBlocks.SUPER_SUT_STONE_BRICKS_WALL.get());
                     })
                     .build());
 

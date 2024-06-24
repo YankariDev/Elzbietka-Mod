@@ -44,6 +44,9 @@
 
   "block.elzbietkamod.super_sut_stone": "Kamień Super Suta",
   "block.elzbietkamod.super_sut_stone_bricks": "Kamienne cegły Super Suta",
+  "block.elzbietkamod.super_sut_stone_bricks_stairs": "Kamienne ceglane schody Super Suta",
+  "block.elzbietkamod.super_sut_stone_bricks_wall": "Kamienna ceglana ściana Super Suta",
+  "block.elzbietkamod.super_sut_stone_bricks_slab": "Kamienny ceglany półblok Super Suta",
 
   "creativetab.elzbietka_tab": "Elżbietka"
 }

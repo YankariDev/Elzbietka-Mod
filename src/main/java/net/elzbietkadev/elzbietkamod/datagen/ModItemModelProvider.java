@@ -54,11 +54,15 @@ public class ModItemModelProvider extends ItemModelProvider
         fenceItem(ModBlocks.SUTINKA_PLANKS_FENCE, ModBlocks.SUTINKA_PLANKS);
         buttonItem(ModBlocks.SUTINKA_PLANKS_BUTTON, ModBlocks.SUTINKA_PLANKS);
         trapdoorItem(ModBlocks.SUTINKA_PLANKS_TRAPDOOR);
+        wallItem(ModBlocks.SUPER_SUT_STONE_BRICKS_WALL, ModBlocks.SUPER_SUT_STONE_BRICKS);
 
         evenSimplerBlockItem(ModBlocks.SUTINKA_PLANKS_STAIRS);
         evenSimplerBlockItem(ModBlocks.SUTINKA_PLANKS_SLAB);
         evenSimplerBlockItem(ModBlocks.SUTINKA_PLANKS_PRESSURE_PLATE);
         evenSimplerBlockItem(ModBlocks.SUTINKA_PLANKS_FENCE_GATE);
+
+        evenSimplerBlockItem(ModBlocks.SUPER_SUT_STONE_BRICKS_STAIRS);
+        evenSimplerBlockItem(ModBlocks.SUPER_SUT_STONE_BRICKS_SLAB);
 
         handheldItem(ModItems.SUT_AXE);
         handheldItem(ModItems.SUT_HOE);
@@ -72,6 +76,11 @@ public class ModItemModelProvider extends ItemModelProvider
         trimmedArmorItem(ModItems.SUT_BOOTS);
 
         simpleBlockItemBlockTexture(ModBlocks.SUTINKA_FLOWER);
+    }
+
+    public void wallItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
+        this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/wall_inventory"))
+                .texture("wall",  new ResourceLocation(ElzbietkaMod.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item)
