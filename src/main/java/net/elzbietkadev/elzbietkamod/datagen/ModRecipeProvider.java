@@ -11,8 +11,10 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
+import net.minecraft.world.item.crafting.StonecutterRecipe;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.StonecutterBlock;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
@@ -40,14 +42,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.SUT.get())
                 .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
                 .save(consumer);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SUTINKA_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUTINKA_WOOD.get())
                 .pattern("AA ")
                 .pattern("AA ")
                 .pattern("   ")
                 .define('A', ModBlocks.SUTINKA_LOG.get())
                 .unlockedBy(getHasName(ModBlocks.SUTINKA_LOG.get()), has(ModBlocks.SUTINKA_LOG.get()))
                 .save(consumer);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_SUTINKA_WOOD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STRIPPED_SUTINKA_WOOD.get())
                 .pattern("AA ")
                 .pattern("AA ")
                 .pattern("   ")
@@ -63,6 +65,56 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
                 .save(consumer);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUTINKA_PLANKS_STAIRS.get(), 4)
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', ModBlocks.SUTINKA_PLANKS.get())
+                .unlockedBy(getHasName(ModBlocks.SUTINKA_PLANKS.get()), has(ModBlocks.SUTINKA_PLANKS.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUTINKA_PLANKS_SLAB.get(), 6)
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("AAA")
+                .define('A', ModBlocks.SUTINKA_PLANKS.get())
+                .unlockedBy(getHasName(ModBlocks.SUTINKA_PLANKS.get()), has(ModBlocks.SUTINKA_PLANKS.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUTINKA_PLANKS_PRESSURE_PLATE.get())
+                .pattern("AA ")
+                .define('A', ModBlocks.SUTINKA_PLANKS.get())
+                .unlockedBy(getHasName(ModBlocks.SUTINKA_PLANKS.get()), has(ModBlocks.SUTINKA_PLANKS.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUTINKA_PLANKS_FENCE.get(), 6)
+                .pattern("   ")
+                .pattern("ABA")
+                .pattern("ABA")
+                .define('A', ModBlocks.SUTINKA_PLANKS.get())
+                .define('B', Items.STICK)
+                .unlockedBy(getHasName(ModBlocks.SUTINKA_PLANKS.get()), has(ModBlocks.SUTINKA_PLANKS.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUTINKA_PLANKS_FENCE_GATE.get(), 6)
+                .pattern("   ")
+                .pattern("ABA")
+                .pattern("ABA")
+                .define('A', Items.STICK)
+                .define('B', ModBlocks.SUTINKA_PLANKS.get())
+                .unlockedBy(getHasName(ModBlocks.SUTINKA_PLANKS.get()), has(ModBlocks.SUTINKA_PLANKS.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUTINKA_PLANKS_DOOR.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("AAA")
+                .define('A', ModBlocks.SUTINKA_PLANKS.get())
+                .unlockedBy(getHasName(ModBlocks.SUTINKA_PLANKS.get()), has(ModBlocks.SUTINKA_PLANKS.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUTINKA_PLANKS_TRAPDOOR.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModBlocks.SUTINKA_PLANKS.get())
+                .unlockedBy(getHasName(ModBlocks.SUTINKA_PLANKS.get()), has(ModBlocks.SUTINKA_PLANKS.get()))
+                .save(consumer);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD,ModItems.SUT.get(), 9)
                 .requires(ModBlocks.SUT_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.SUT_BLOCK.get()), has(ModBlocks.SUT_BLOCK.get()))
@@ -71,6 +123,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS,ModBlocks.SUTINKA_PLANKS.get(), 4)
                 .requires(ModBlocks.SUTINKA_LOG.get())
                 .unlockedBy(getHasName(ModBlocks.SUTINKA_LOG.get()), has(ModBlocks.SUTINKA_LOG.get()))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS,ModBlocks.SUTINKA_PLANKS_BUTTON.get())
+                .requires(ModBlocks.SUTINKA_PLANKS.get())
+                .unlockedBy(getHasName(ModBlocks.SUTINKA_PLANKS.get()), has(ModBlocks.SUTINKA_PLANKS.get()))
                 .save(consumer);
 
 

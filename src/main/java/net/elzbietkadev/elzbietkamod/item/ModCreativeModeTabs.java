@@ -25,9 +25,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SUTINKA_WOOD.get());
                         output.accept(ModBlocks.STRIPPED_SUTINKA_WOOD.get());
                         output.accept(ModBlocks.SUTINKA_PLANKS.get());
-                        output.accept(ModBlocks.SUTINKA_LEAVES.get());
+                        output.accept(ModBlocks.SUTINKA_PLANKS_STAIRS.get());
+                        output.accept(ModBlocks.SUTINKA_PLANKS_SLAB.get());
+                        output.accept(ModBlocks.SUTINKA_PLANKS_FENCE.get());
+                        output.accept(ModBlocks.SUTINKA_PLANKS_FENCE_GATE.get());
+                        output.accept(ModBlocks.SUTINKA_PLANKS_BUTTON.get());
+                        output.accept(ModBlocks.SUTINKA_PLANKS_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.SUTINKA_PLANKS_DOOR.get());
+                        output.accept(ModBlocks.SUTINKA_PLANKS_TRAPDOOR.get());
                         output.accept(ModBlocks.SUT_BLOCK.get());
                         output.accept(ModItems.SUT.get());
+                        output.accept(ModBlocks.SUTINKA_LEAVES.get());
                         output.accept(ModItems.SUTINKA.get());
                         output.accept(ModItems.CUM_MODELECZKI.get());
                         output.accept(ModItems.SUTINKA_SEEDS.get());

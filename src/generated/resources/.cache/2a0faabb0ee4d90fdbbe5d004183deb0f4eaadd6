@@ -1,7 +1,15 @@
-// 1.20.1	2024-06-24T03:09:26.2827529	Item Models: elzbietkamod
+// 1.20.1	2024-06-24T06:39:15.834448	Item Models: elzbietkamod
 2823b46204cdc126288fc274cf210f65915235d7 assets/elzbietkamod/models/item/cum_modeleczki.json
 976be014897c58408274b8ad1bed841e9addbb7e assets/elzbietkamod/models/item/sut.json
 bd955a26e51ff245ba2d33ddedc0c8f5c06e53a2 assets/elzbietkamod/models/item/sutinka.json
+3cc8549a4adc69077a010c66764ce1118ffb65f9 assets/elzbietkamod/models/item/sutinka_button.json
+565150655a28c9c6addbb1790445b6f3e12cdb24 assets/elzbietkamod/models/item/sutinka_door.json
+fd9781437fe1e5cb6fd9b9f2b9161759200f4398 assets/elzbietkamod/models/item/sutinka_fence.json
+5aeb7286b3720585ffdfdbbb3d1fba027fa0bcee assets/elzbietkamod/models/item/sutinka_fence_gate.json
+e347e0df5235f0ba471a2cb79779ec20f7235809 assets/elzbietkamod/models/item/sutinka_pressure_plate.json
 31da088581b75fcc992fbb137cc39a62c9023da1 assets/elzbietkamod/models/item/sutinka_sapling.json
 6ea6391efac1cd483808d1dcee6dca49113776dc assets/elzbietkamod/models/item/sutinka_seeds.json
+e7eaeccfaaea329a67b199098f7c86e18bf6a5a5 assets/elzbietkamod/models/item/sutinka_slab.json
+587f07c17f3da83da782bba635c3dfbafea84ccd assets/elzbietkamod/models/item/sutinka_stairs.json
+8dc3197c3d033fe99e275395e87068b7818c7124 assets/elzbietkamod/models/item/sutinka_trapdoor.json
 9a6463990ccb674d1bb688235dac90e2695fb444 assets/elzbietkamod/models/item/zjebuska_music_disc.json

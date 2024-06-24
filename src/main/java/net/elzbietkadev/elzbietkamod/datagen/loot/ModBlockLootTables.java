@@ -37,6 +37,18 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.dropSelf(ModBlocks.SUTINKA_PLANKS.get());
         this.dropSelf(ModBlocks.SUTINKA_SAPLING.get());
 
+        this.dropSelf(ModBlocks.SUTINKA_PLANKS_STAIRS.get());
+        this.dropSelf(ModBlocks.SUTINKA_PLANKS_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.SUTINKA_PLANKS_BUTTON.get());
+        this.dropSelf(ModBlocks.SUTINKA_PLANKS_FENCE.get());
+        this.dropSelf(ModBlocks.SUTINKA_PLANKS_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.SUTINKA_PLANKS_TRAPDOOR.get());
+
+        this.add(ModBlocks.SUTINKA_PLANKS_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SUTINKA_PLANKS_SLAB.get()));
+        this.add(ModBlocks.SUTINKA_PLANKS_DOOR.get(),
+                block -> createSlabItemTable(ModBlocks.SUTINKA_PLANKS_DOOR.get()));
+
         this.add(ModBlocks.SUTINKA_LEAVES.get(), block ->
                 createLeavesDrops(block, ModBlocks.SUTINKA_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
 

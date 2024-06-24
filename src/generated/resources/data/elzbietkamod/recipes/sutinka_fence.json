@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "elzbietkamod:sutinka_planks"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "   ",
+    "ABA",
+    "ABA"
+  ],
+  "result": {
+    "count": 6,
+    "item": "elzbietkamod:sutinka_fence"
+  },
+  "show_notification": true
+}

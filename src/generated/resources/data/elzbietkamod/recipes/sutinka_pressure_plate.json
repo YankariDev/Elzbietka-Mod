@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "elzbietkamod:sutinka_planks"
+    }
+  },
+  "pattern": [
+    "AA "
+  ],
+  "result": {
+    "item": "elzbietkamod:sutinka_pressure_plate"
+  },
+  "show_notification": true
+}

@@ -5,9 +5,7 @@ import net.elzbietkadev.elzbietkamod.block.ModBlocks;
 import net.elzbietkadev.elzbietkamod.block.custom.SutinkaCropBlock;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.CropBlock;
-import net.minecraft.world.level.block.RotatedPillarBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
@@ -48,6 +46,18 @@ public class ModBlockStateProvider extends BlockStateProvider
         saplingBlock(ModBlocks.SUTINKA_SAPLING);
 
         makeSutinkaCrop((CropBlock) ModBlocks.SUTINKA_CROP.get(), "sutinki_stage", "sutinki_stage");
+
+        stairsBlock(((StairBlock) ModBlocks.SUTINKA_PLANKS_STAIRS.get()), blockTexture(ModBlocks.SUTINKA_PLANKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.SUTINKA_PLANKS_SLAB.get()), blockTexture(ModBlocks.SUTINKA_PLANKS.get()), blockTexture(ModBlocks.SUTINKA_PLANKS.get()));
+
+        buttonBlock(((ButtonBlock) ModBlocks.SUTINKA_PLANKS_BUTTON.get()), blockTexture(ModBlocks.SUTINKA_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModBlocks.SUTINKA_PLANKS_PRESSURE_PLATE.get()), blockTexture(ModBlocks.SUTINKA_PLANKS.get()));
+
+        fenceBlock(((FenceBlock) ModBlocks.SUTINKA_PLANKS_FENCE.get()), blockTexture(ModBlocks.SUTINKA_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) ModBlocks.SUTINKA_PLANKS_FENCE_GATE.get()), blockTexture(ModBlocks.SUTINKA_PLANKS.get()));
+
+        doorBlockWithRenderType(((DoorBlock) ModBlocks.SUTINKA_PLANKS_DOOR.get()), modLoc("block/sutinka_door_bottom"), modLoc("block/sutinka_door_top"), "cutout");
+        trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.SUTINKA_PLANKS_TRAPDOOR.get()), modLoc("block/sutinka_trapdoor"), true, "cutout");
     }
 
     public void makeSutinkaCrop(CropBlock block, String modelName, String textureName)

@@ -7,6 +7,7 @@ import net.elzbietkadev.elzbietkamod.item.ModItems;
 import net.elzbietkadev.elzbietkamod.worldgen.tree.SutinkaTreeGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -14,6 +15,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -48,6 +50,30 @@ public class ModBlocks {
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).strength(3f)));
     public static final RegistryObject<Block> SUTINKA_PLANKS = registerBlock("sutinka_planks",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(3f)));
+
+    public static final RegistryObject<Block> SUTINKA_PLANKS_STAIRS = registerBlock("sutinka_stairs",
+            () -> new StairBlock(() -> ModBlocks.SUTINKA_PLANKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> SUTINKA_PLANKS_SLAB = registerBlock("sutinka_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+
+    public static final RegistryObject<Block> SUTINKA_PLANKS_BUTTON = registerBlock("sutinka_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON),
+                    BlockSetType.OAK, 10, true));
+    public static final RegistryObject<Block> SUTINKA_PLANKS_PRESSURE_PLATE = registerBlock("sutinka_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS),
+                    BlockSetType.OAK));
+
+    public static final RegistryObject<Block> SUTINKA_PLANKS_FENCE = registerBlock("sutinka_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> SUTINKA_PLANKS_FENCE_GATE = registerBlock("sutinka_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS),
+                    SoundEvents.FENCE_GATE_OPEN, SoundEvents.FENCE_GATE_CLOSE));
+
+    public static final RegistryObject<Block> SUTINKA_PLANKS_DOOR = registerBlock("sutinka_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion(), BlockSetType.OAK));
+    public static final RegistryObject<Block> SUTINKA_PLANKS_TRAPDOOR = registerBlock("sutinka_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion(), BlockSetType.OAK));
 
 
     public static final RegistryObject<Block> SUTINKA_LEAVES = registerBlock("sutinka_leaves",

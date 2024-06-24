@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "elzbietkamod:block/sutinka_planks",
+    "side": "elzbietkamod:block/sutinka_planks",
+    "top": "elzbietkamod:block/sutinka_planks"
+  }
+}

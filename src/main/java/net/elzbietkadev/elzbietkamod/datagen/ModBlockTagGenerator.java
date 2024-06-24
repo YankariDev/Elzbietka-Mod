@@ -49,5 +49,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                 .add(ModBlocks.SUTINKA_WOOD.get())
                 .add(ModBlocks.STRIPPED_SUTINKA_LOG.get())
                 .add(ModBlocks.STRIPPED_SUTINKA_WOOD.get());
+
+        this.tag(BlockTags.FENCES)
+                .add(ModBlocks.SUTINKA_PLANKS_FENCE.get());
+        this.tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.SUTINKA_PLANKS_FENCE_GATE.get());
     }
 }

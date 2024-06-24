@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "elzbietkamod:sutinka_planks"
+    }
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "AAA"
+  ],
+  "result": {
+    "count": 6,
+    "item": "elzbietkamod:sutinka_slab"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "elzbietkamod:block/sutinka_slab"
+    },
+    "type=double": {
+      "model": "elzbietkamod:block/sutinka_planks"
+    },
+    "type=top": {
+      "model": "elzbietkamod:block/sutinka_slab_top"
+    }
+  }
+}

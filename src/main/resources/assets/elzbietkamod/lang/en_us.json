@@ -20,5 +20,14 @@
   "block.elzbietkamod.sutinka_leaves": "Nippla Leaves",
   "block.elzbietkamod.sutinka_sapling": "Nippla Sapling",
 
+  "block.elzbietkamod.sutinka_stairs": "Nippla Stairs",
+  "block.elzbietkamod.sutinka_slab": "Nippla Slab",
+  "block.elzbietkamod.sutinka_button": "Nippla Button",
+  "block.elzbietkamod.sutinka_pressure_plate": "Nippla Pressure Plate",
+  "block.elzbietkamod.sutinka_fence": "Nippla Fence",
+  "block.elzbietkamod.sutinka_fence_gate": "Nippla Fence gate",
+  "block.elzbietkamod.sutinka_door": "Nippla Door",
+  "block.elzbietkamod.sutinka_trapdoor": "Nippla TrapDoor",
+
   "creativetab.elzbietka_tab": "Elżbietka"
 }

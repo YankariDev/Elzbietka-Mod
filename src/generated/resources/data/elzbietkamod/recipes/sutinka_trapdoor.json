@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "elzbietkamod:sutinka_planks"
+    }
+  },
+  "pattern": [
+    "   ",
+    "AAA",
+    "AAA"
+  ],
+  "result": {
+    "item": "elzbietkamod:sutinka_trapdoor"
+  },
+  "show_notification": true
+}
