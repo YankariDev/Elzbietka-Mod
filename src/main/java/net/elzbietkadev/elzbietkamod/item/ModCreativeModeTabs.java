@@ -54,6 +54,7 @@ public class ModCreativeModeTabs {
 
 
 
+                        output.accept(ModBlocks.SUPER_SUT_ORE.get());
                         output.accept(ModBlocks.SUPER_SUT_STONE.get());
                         output.accept(ModBlocks.SUPER_SUT_STONE_BRICKS.get());
                         output.accept(ModBlocks.SUPER_SUT_STONE_BRICKS_STAIRS.get());

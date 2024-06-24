@@ -122,6 +122,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> SUPER_SUT_STONE_BRICKS_WALL = registerBlock("super_sut_stone_bricks_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE_BRICKS)));
 
+    public static final RegistryObject<Block> SUPER_SUT_ORE = registerBlock("super_sut_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
+                    .strength(4.5f)
+                    .requiresCorrectToolForDrops(), UniformInt.of(6,7)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

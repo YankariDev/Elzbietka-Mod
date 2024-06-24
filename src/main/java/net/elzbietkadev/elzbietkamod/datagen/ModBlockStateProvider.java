@@ -73,7 +73,7 @@ public class ModBlockStateProvider extends BlockStateProvider
 
 
 
-
+        blockWithItem(ModBlocks.SUPER_SUT_ORE);
         blockWithItem(ModBlocks.SUPER_SUT_STONE);
         blockWithItem(ModBlocks.SUPER_SUT_STONE_BRICKS);
         stairsBlock(((StairBlock) ModBlocks.SUPER_SUT_STONE_BRICKS_STAIRS.get()), blockTexture(ModBlocks.SUPER_SUT_STONE_BRICKS.get()));

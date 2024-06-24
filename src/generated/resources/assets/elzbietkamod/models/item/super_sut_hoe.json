@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "elzbietkamod:item/super_sut_hoe"
+  }
+}
