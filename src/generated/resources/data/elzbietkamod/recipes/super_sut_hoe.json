@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "elzbietkamod:super_sut"
+    }
+  },
+  "pattern": [
+    "BB ",
+    " A ",
+    " A "
+  ],
+  "result": {
+    "item": "elzbietkamod:super_sut_hoe"
+  },
+  "show_notification": true
+}
