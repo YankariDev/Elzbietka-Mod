@@ -51,6 +51,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SUT_LEGGINGS.get());
                         output.accept(ModItems.SUT_CHESTPLATE.get());
                         output.accept(ModItems.SUT_HELMET.get());
+
+
+                        output.accept(ModBlocks.SUPER_SUT_STONE.get());
+                        output.accept(ModBlocks.SUPER_SUT_STONE_BRICKS.get());
                     })
                     .build());
 

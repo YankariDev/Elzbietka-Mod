@@ -108,6 +108,13 @@ public class ModBlocks {
             () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.SUTINKA_FLOWER,
                     BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
 
+
+
+    public static final RegistryObject<Block> SUPER_SUT_STONE = registerBlock("super_sut_stone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.END_STONE)));
+    public static final RegistryObject<Block> SUPER_SUT_STONE_BRICKS = registerBlock("super_sut_stone_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.END_STONE_BRICKS)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

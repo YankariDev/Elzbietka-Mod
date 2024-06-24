@@ -64,6 +64,12 @@ public class ModBlockStateProvider extends BlockStateProvider
                 blockTexture(ModBlocks.SUTINKA_FLOWER.get())).renderType("cutout"));
         simpleBlockWithItem(ModBlocks.POTTED_SUTINKA_FLOWER.get(), models().singleTexture("potted_sutinka_flower", new ResourceLocation("flower_pot_cross"), "plant",
                 blockTexture(ModBlocks.SUTINKA_FLOWER.get())).renderType("cutout"));
+
+
+
+
+        blockWithItem(ModBlocks.SUPER_SUT_STONE);
+        blockWithItem(ModBlocks.SUPER_SUT_STONE_BRICKS);
     }
 
     public void makeSutinkaCrop(CropBlock block, String modelName, String textureName)

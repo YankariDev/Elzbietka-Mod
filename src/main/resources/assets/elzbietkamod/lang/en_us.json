@@ -5,7 +5,6 @@
 
   "item.elzbietkamod.sutinka_seeds": "Nippla Seeds",
   "block.elzbietkamod.sutinka_flower": "Nippla Flower",
-  "block.elzbietkamod.sutinka_grass": "Nippla Grass",
 
   "item.elzbietkamod.zjebuska_music_disc": "Zjebuska Music Disc",
   "item.elzbietkamod.zjebuska_music_disc.desc": "Elżbietka - Zjebuska",
@@ -41,6 +40,9 @@
   "item.elzbietkamod.sut_chestplate": "Nipple Chestplate",
   "item.elzbietkamod.sut_leggings": "Nipple Leggings",
   "item.elzbietkamod.sut_boots": "Nipple Boots",
+
+  "block.elzbietkamod.super_sut_stone": "Super Nipple Stone",
+  "block.elzbietkamod.super_sut_stone_bricks": "Super Nipple Stone bricks",
 
   "creativetab.elzbietka_tab": "Elżbietka"
 }

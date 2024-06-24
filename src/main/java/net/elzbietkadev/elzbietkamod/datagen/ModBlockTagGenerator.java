@@ -40,6 +40,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider
         this.tag(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(ModBlocks.SUT_BLOCK.get());
 
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.SUPER_SUT_STONE.get())
+                .add(ModBlocks.SUPER_SUT_STONE_BRICKS.get());
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.SUT_ORE.get(), ModBlocks.DEEPSLATE_SUT_ORE.get()).addTag(Tags.Blocks.ORES);
         this.tag(BlockTags.NEEDS_STONE_TOOL)
