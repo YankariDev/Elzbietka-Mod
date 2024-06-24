@@ -9,6 +9,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
+import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -58,6 +59,11 @@ public class ModBlockStateProvider extends BlockStateProvider
 
         doorBlockWithRenderType(((DoorBlock) ModBlocks.SUTINKA_PLANKS_DOOR.get()), modLoc("block/sutinka_door_bottom"), modLoc("block/sutinka_door_top"), "cutout");
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.SUTINKA_PLANKS_TRAPDOOR.get()), modLoc("block/sutinka_trapdoor"), true, "cutout");
+
+        simpleBlockWithItem(ModBlocks.SUTINKA_FLOWER.get(), models().cross(blockTexture(ModBlocks.SUTINKA_FLOWER.get()).getPath(),
+                blockTexture(ModBlocks.SUTINKA_FLOWER.get())).renderType("cutout"));
+        simpleBlockWithItem(ModBlocks.POTTED_SUTINKA_FLOWER.get(), models().singleTexture("potted_sutinka_flower", new ResourceLocation("flower_pot_cross"), "plant",
+                blockTexture(ModBlocks.SUTINKA_FLOWER.get())).renderType("cutout"));
     }
 
     public void makeSutinkaCrop(CropBlock block, String modelName, String textureName)

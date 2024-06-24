@@ -63,6 +63,9 @@ public class ModBlockLootTables extends BlockLootSubProvider
 
         this.add(ModBlocks.SUTINKA_CROP.get(), createCropDrops(ModBlocks.SUTINKA_CROP.get(), ModItems.SUTINKA.get(),
                 ModItems.SUTINKA_SEEDS.get(), lootitemcondition$builder));
+
+        this.dropSelf(ModBlocks.SUTINKA_FLOWER.get());
+        this.add(ModBlocks.POTTED_SUTINKA_FLOWER.get(), createPotFlowerItemTable(ModBlocks.SUTINKA_FLOWER.get()));
     }
 
     protected LootTable.Builder createCooperLikeOreDrops(Block pBlock, Item item)

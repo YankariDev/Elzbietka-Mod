@@ -36,6 +36,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SUT_BLOCK.get());
                         output.accept(ModItems.SUT.get());
                         output.accept(ModBlocks.SUTINKA_LEAVES.get());
+                        output.accept(ModBlocks.SUTINKA_FLOWER.get());
                         output.accept(ModItems.SUTINKA.get());
                         output.accept(ModItems.CUM_MODELECZKI.get());
                         output.accept(ModItems.SUTINKA_SEEDS.get());

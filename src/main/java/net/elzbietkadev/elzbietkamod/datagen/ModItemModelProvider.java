@@ -70,6 +70,8 @@ public class ModItemModelProvider extends ItemModelProvider
         trimmedArmorItem(ModItems.SUT_CHESTPLATE);
         trimmedArmorItem(ModItems.SUT_LEGGINGS);
         trimmedArmorItem(ModItems.SUT_BOOTS);
+
+        simpleBlockItemBlockTexture(ModBlocks.SUTINKA_FLOWER);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item)
@@ -115,6 +117,12 @@ public class ModItemModelProvider extends ItemModelProvider
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(ElzbietkaMod.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder simpleBlockItemBlockTexture(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(ElzbietkaMod.MOD_ID,"block/" + item.getId().getPath()));
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
