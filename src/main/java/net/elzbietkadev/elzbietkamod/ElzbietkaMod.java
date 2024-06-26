@@ -6,6 +6,7 @@ import net.elzbietkadev.elzbietkamod.entity.ModEntities;
 import net.elzbietkadev.elzbietkamod.entity.client.SutRenderer;
 import net.elzbietkadev.elzbietkamod.item.ModCreativeModeTabs;
 import net.elzbietkadev.elzbietkamod.item.ModItems;
+import net.elzbietkadev.elzbietkamod.loot.ModLootModifiers;
 import net.elzbietkadev.elzbietkamod.sound.ModSounds;
 import net.elzbietkadev.elzbietkamod.worldgen.biome.ModBiomes;
 import net.elzbietkadev.elzbietkamod.worldgen.biome.ModTerrablender;
@@ -42,6 +43,7 @@ public class ElzbietkaMod
         ModSounds.register(modEventBus);
         ModTerrablender.registerBiomes();
         ModEntities.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -5,6 +5,7 @@ import net.elzbietkadev.elzbietkamod.block.custom.SutinkaCropBlock;
 import net.elzbietkadev.elzbietkamod.item.ModItems;
 import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.data.loot.BlockLootSubProvider;
+import net.minecraft.data.loot.packs.VanillaEntityLoot;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -77,6 +78,8 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.add(ModBlocks.SUPER_SUT_STONE_BRICKS_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.SUPER_SUT_STONE_BRICKS_SLAB.get()));
         this.dropSelf(ModBlocks.SUPER_SUT_STONE_BRICKS_WALL.get());
+
+
     }
 
     protected LootTable.Builder createCooperLikeOreDrops(Block pBlock, Item item)

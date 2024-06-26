@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:killed_by_player"
+                }
+              ],
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "elzbietkamod:sut"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "elzbietkamod:entities/sut_entity"
+}
