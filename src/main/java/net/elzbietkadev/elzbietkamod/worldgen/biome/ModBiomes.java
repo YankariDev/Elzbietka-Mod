@@ -18,8 +18,6 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 public class ModBiomes {
     public static final ResourceKey<Biome> ELZBIETKA_BIOME = ResourceKey.create(Registries.BIOME,
             new ResourceLocation(ElzbietkaMod.MOD_ID, "elzbietka_biome"));
-    public static final ResourceKey<Biome> ELZBIETKA_LAND = ResourceKey.create(Registries.BIOME,
-            new ResourceLocation(ElzbietkaMod.MOD_ID, "elzbietka_land"));
 
     public static void boostrap(BootstapContext<Biome> context) {
         context.register(ELZBIETKA_BIOME, elzbietkaBiome(context));
@@ -32,38 +30,6 @@ public class ModBiomes {
         BiomeDefaultFeatures.addDefaultUndergroundVariety(builder);
         BiomeDefaultFeatures.addDefaultSprings(builder);
         BiomeDefaultFeatures.addSurfaceFreezing(builder);
-    }
-
-    public static Biome elzbietkaLand(BootstapContext<Biome> context) {
-        MobSpawnSettings.Builder spawnBuilder = new MobSpawnSettings.Builder();
-        //spawnBuilder.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(ModEntities.RHINO.get(), 2, 3, 5));
-
-        spawnBuilder.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(EntityType.COW, 5, 4, 4));
-
-        BiomeDefaultFeatures.farmAnimals(spawnBuilder);
-        BiomeDefaultFeatures.commonSpawns(spawnBuilder);
-
-        BiomeGenerationSettings.Builder biomeBuilder =
-                new BiomeGenerationSettings.Builder(context.lookup(Registries.PLACED_FEATURE), context.lookup(Registries.CONFIGURED_CARVER));
-        //we need to follow the same order as vanilla biomes for the BiomeDefaultFeatures
-        globalOverworldGeneration(biomeBuilder);
-
-        return new Biome.BiomeBuilder()
-                .hasPrecipitation(true)
-                .downfall(0.8f)
-                .temperature(0.7f)
-                .generationSettings(biomeBuilder.build())
-                .mobSpawnSettings(spawnBuilder.build())
-                .specialEffects((new BiomeSpecialEffects.Builder())
-                        .waterColor(0xd3d3d3)
-                        .waterFogColor(0xd3d3d3)
-                        .skyColor(0x0048ff)
-                        .grassColorOverride(0xa5ab66)
-                        .foliageColorOverride(0xa5ab66)
-                        .fogColor(0x0048ff)
-                        .ambientMoodSound(AmbientMoodSettings.LEGACY_CAVE_SETTINGS)
-                        .backgroundMusic(Musics.createGameMusic(ModSounds.ZJEBUSKA.getHolder().get())).build())
-                .build();
     }
 
     public static Biome elzbietkaBiome(BootstapContext<Biome> context) {

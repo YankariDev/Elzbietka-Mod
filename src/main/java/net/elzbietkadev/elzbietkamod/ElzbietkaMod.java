@@ -5,6 +5,8 @@ import net.elzbietkadev.elzbietkamod.block.ModBlocks;
 import net.elzbietkadev.elzbietkamod.item.ModCreativeModeTabs;
 import net.elzbietkadev.elzbietkamod.item.ModItems;
 import net.elzbietkadev.elzbietkamod.sound.ModSounds;
+import net.elzbietkadev.elzbietkamod.worldgen.biome.ModBiomes;
+import net.elzbietkadev.elzbietkamod.worldgen.biome.ModTerrablender;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
@@ -35,6 +37,7 @@ public class ElzbietkaMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModSounds.register(modEventBus);
+        ModTerrablender.registerBiomes();
 
         modEventBus.addListener(this::commonSetup);
 
