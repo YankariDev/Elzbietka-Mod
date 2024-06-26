@@ -2,8 +2,10 @@ package net.elzbietkadev.elzbietkamod.item;
 
 import net.elzbietkadev.elzbietkamod.ElzbietkaMod;
 import net.elzbietkadev.elzbietkamod.block.ModBlocks;
+import net.elzbietkadev.elzbietkamod.entity.ModEntities;
 import net.elzbietkadev.elzbietkamod.sound.ModSounds;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -71,6 +73,9 @@ public class ModItems {
             () -> new AxeItem(ModToolTiers.SUPER_SUT, 6, 2, new Item.Properties()));
     public static final RegistryObject<Item> SUPER_SUT_PICKAXE = ITEMS.register("super_sut_pickaxe",
             () -> new PickaxeItem(ModToolTiers.SUPER_SUT, 1, 1, new Item.Properties()));
+
+    public static final RegistryObject<Item> SUT_SPAWN_EGG = ITEMS.register("sut_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.SUT, 0xffae86, 0xa73400, new Item.Properties()));
 
     public static void register(IEventBus eventBus)
     {

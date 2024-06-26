@@ -2,11 +2,14 @@ package net.elzbietkadev.elzbietkamod;
 
 import com.mojang.logging.LogUtils;
 import net.elzbietkadev.elzbietkamod.block.ModBlocks;
+import net.elzbietkadev.elzbietkamod.entity.ModEntities;
+import net.elzbietkadev.elzbietkamod.entity.client.SutRenderer;
 import net.elzbietkadev.elzbietkamod.item.ModCreativeModeTabs;
 import net.elzbietkadev.elzbietkamod.item.ModItems;
 import net.elzbietkadev.elzbietkamod.sound.ModSounds;
 import net.elzbietkadev.elzbietkamod.worldgen.biome.ModBiomes;
 import net.elzbietkadev.elzbietkamod.worldgen.biome.ModTerrablender;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
@@ -38,6 +41,7 @@ public class ElzbietkaMod
         ModBlocks.register(modEventBus);
         ModSounds.register(modEventBus);
         ModTerrablender.registerBiomes();
+        ModEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -70,6 +74,7 @@ public class ElzbietkaMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
+            EntityRenderers.register(ModEntities.SUT.get(), SutRenderer::new);
         }
     }
 }

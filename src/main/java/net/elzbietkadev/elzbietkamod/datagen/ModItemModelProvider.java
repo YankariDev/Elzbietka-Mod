@@ -90,6 +90,8 @@ public class ModItemModelProvider extends ItemModelProvider
         handheldItem(ModItems.SUPER_SUT_PICKAXE);
         handheldItem(ModItems.SUPER_SUT_SWORD);
         handheldItem(ModItems.SUPER_SUT_SHOVEL);
+
+        withExistingParent(ModItems.SUT_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
     public void wallItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {

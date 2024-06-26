@@ -15,6 +15,9 @@ public class ModSounds {
 
     public static final RegistryObject<SoundEvent> ZJEBUSKA = registerSoundEvents("zjebuska");
 
+    public static final RegistryObject<SoundEvent> SUT_HURT = registerSoundEvents("sut.hurt");
+    public static final RegistryObject<SoundEvent> SUT_DEATH = registerSoundEvents("sut.death");
+
 
     private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(ElzbietkaMod.MOD_ID, name)));

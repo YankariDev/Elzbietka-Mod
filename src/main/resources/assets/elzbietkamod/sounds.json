@@ -6,5 +6,25 @@
         "stream": true
       }
     ]
+  },
+  "sut.hurt": {
+    "sounds": [
+      {
+        "name": "elzbietkamod:sut_hurt_1",
+        "stream": true
+      },
+      {
+        "name": "elzbietkamod:sut_hurt_2",
+        "stream": true
+      }
+    ]
+  },
+  "sut.death": {
+    "sounds": [
+      {
+        "name": "elzbietkamod:sut_death",
+        "stream": true
+      }
+    ]
   }
 }

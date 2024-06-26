@@ -70,6 +70,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SUPER_SUT_CHESTPLATE.get());
                         output.accept(ModItems.SUPER_SUT_LEGGINGS.get());
                         output.accept(ModItems.SUPER_SUT_BOOTS.get());
+
+                        output.accept(ModItems.SUT_SPAWN_EGG.get());
                     })
                     .build());
 
