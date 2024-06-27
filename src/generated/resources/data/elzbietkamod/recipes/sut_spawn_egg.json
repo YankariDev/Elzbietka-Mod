@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "elzbietkamod:sut"
+    },
+    "B": {
+      "item": "elzbietkamod:super_sut"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "result": {
+    "item": "elzbietkamod:sut_spawn_egg"
+  },
+  "show_notification": true
+}

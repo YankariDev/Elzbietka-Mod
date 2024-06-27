@@ -3,6 +3,7 @@ package net.elzbietkadev.elzbietkamod.datagen;
 import net.elzbietkadev.elzbietkamod.ElzbietkaMod;
 import net.elzbietkadev.elzbietkamod.block.ModBlocks;
 import net.elzbietkadev.elzbietkamod.item.ModItems;
+import net.elzbietkadev.elzbietkamod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
@@ -40,5 +41,11 @@ public class ModItemTagGenerator extends ItemTagsProvider
                 .add(ModItems.SUPER_SUT_CHESTPLATE.get())
                 .add(ModItems.SUPER_SUT_LEGGINGS.get())
                 .add(ModItems.SUPER_SUT_BOOTS.get());
+
+        this.tag(ModTags.Items.SUTINKA_LOGS)
+                .add(ModBlocks.SUTINKA_LOG.get().asItem(),
+                        ModBlocks.SUTINKA_WOOD.get().asItem(),
+                        ModBlocks.STRIPPED_SUTINKA_LOG.get().asItem(),
+                        ModBlocks.STRIPPED_SUTINKA_WOOD.get().asItem());
     }
 }

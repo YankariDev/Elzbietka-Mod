@@ -8,6 +8,8 @@ import net.minecraft.advancements.critereon.InventoryChangeTrigger;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -42,6 +44,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("AAA")
                 .define('A', ModItems.SUT.get())
                 .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SUT_SPAWN_EGG.get())
+                .pattern(" A ")
+                .pattern("ABA")
+                .pattern(" A ")
+                .define('A', ModItems.SUT.get())
+                .define('B', ModItems.SUPER_SUT.get())
+                .unlockedBy(getHasName(ModItems.SUPER_SUT.get()), has(ModItems.SUPER_SUT.get()))
                 .save(consumer);
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUTINKA_WOOD.get())
                 .pattern("AA ")
@@ -216,10 +226,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.SUT_BLOCK.get()), has(ModBlocks.SUT_BLOCK.get()))
                 .save(consumer);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS,ModBlocks.SUTINKA_PLANKS.get(), 4)
-                .requires(ModBlocks.SUTINKA_LOG.get())
-                .unlockedBy(getHasName(ModBlocks.SUTINKA_LOG.get()), has(ModBlocks.SUTINKA_LOG.get()))
-                .save(consumer);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS,ModBlocks.SUTINKA_PLANKS_BUTTON.get())
                 .requires(ModBlocks.SUTINKA_PLANKS.get())
                 .unlockedBy(getHasName(ModBlocks.SUTINKA_PLANKS.get()), has(ModBlocks.SUTINKA_PLANKS.get()))
@@ -306,6 +312,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.SUPER_SUT.get())
                 .unlockedBy(getHasName(ModItems.SUPER_SUT.get()), has(ModItems.SUPER_SUT.get()))
                 .save(consumer);
+
+        planksFromLogs(consumer, ModBlocks.SUTINKA_PLANKS.get(), ModTags.Items.SUTINKA_LOGS, 4);
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> p_250654_, List<ItemLike> p_250172_, RecipeCategory p_250588_, ItemLike p_251868_, float p_250789_, int p_252144_, String p_251687_) {

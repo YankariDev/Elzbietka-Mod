@@ -25,10 +25,5 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
 
         add("sut_from_cow", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/cow")).build() }, ModItems.SUT.get()));
-
-
-
-        add("sut_from_sut_entity", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("entities/sut_entity")).build() }, ModItems.SUT.get()));
     }
 }

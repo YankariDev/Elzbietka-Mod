@@ -8,6 +8,8 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 
+import javax.swing.text.html.HTML;
+
 public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> NEEDS_SUT_TOOL = tag("needs_sut_tool");
@@ -19,7 +21,7 @@ public class ModTags {
     }
 
     public static class Items {
-
+        public static final TagKey<Item> SUTINKA_LOGS = tag("sutinka_logs");
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(ElzbietkaMod.MOD_ID, name));
         }
