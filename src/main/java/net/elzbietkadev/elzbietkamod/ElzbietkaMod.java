@@ -2,14 +2,17 @@ package net.elzbietkadev.elzbietkamod;
 
 import com.mojang.logging.LogUtils;
 import net.elzbietkadev.elzbietkamod.block.ModBlocks;
+import net.elzbietkadev.elzbietkamod.block.entity.ModBlockEntities;
 import net.elzbietkadev.elzbietkamod.entity.ModEntities;
 import net.elzbietkadev.elzbietkamod.entity.client.SutRenderer;
 import net.elzbietkadev.elzbietkamod.item.ModCreativeModeTabs;
 import net.elzbietkadev.elzbietkamod.item.ModItems;
 import net.elzbietkadev.elzbietkamod.loot.ModLootModifiers;
+import net.elzbietkadev.elzbietkamod.screen.ModMenuTypes;
+import net.elzbietkadev.elzbietkamod.screen.SutUpgraderStationScreen;
 import net.elzbietkadev.elzbietkamod.sound.ModSounds;
-import net.elzbietkadev.elzbietkamod.worldgen.biome.ModBiomes;
 import net.elzbietkadev.elzbietkamod.worldgen.biome.ModTerrablender;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
@@ -44,6 +47,8 @@ public class ElzbietkaMod
         ModTerrablender.registerBiomes();
         ModEntities.register(modEventBus);
         ModLootModifiers.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -77,6 +82,8 @@ public class ElzbietkaMod
         public static void onClientSetup(FMLClientSetupEvent event)
         {
             EntityRenderers.register(ModEntities.SUT.get(), SutRenderer::new);
+
+            MenuScreens.register(ModMenuTypes.SUT_UPGRADER_MENU.get(), SutUpgraderStationScreen::new);
         }
     }
 }

@@ -1,4 +1,4 @@
-// 1.20.1	2024-06-24T19:19:39.0351995	Block States: elzbietkamod
+// 1.20.1	2024-06-27T18:30:43.6509125	Block States: elzbietkamod
 fdc941dca3fd42cba2c54844297118ccfea6ce78 assets/elzbietkamod/blockstates/deepslate_sut_ore.json
 d06ce7e96fed22ab38c96e90c77dbcfdaeb39a54 assets/elzbietkamod/blockstates/potted_sutinka_flower.json
 12e9be540d218fa4b436dace11e271a030c418a3 assets/elzbietkamod/blockstates/stripped_sutinka_log.json
@@ -26,6 +26,7 @@ f58085a11fa975c5588af6a485679469d05c2494 assets/elzbietkamod/blockstates/sutinka
 db9c896ab6fb424efbf3da7dd207b29765502de7 assets/elzbietkamod/blockstates/sutinka_wood.json
 f90907f914e6ac2f7258a57d6d1fe5d437a38ec0 assets/elzbietkamod/blockstates/sut_block.json
 65cbcb4239d43fc113f9e428f7bf52e3fe221bdc assets/elzbietkamod/blockstates/sut_ore.json
+a2b479417989d4d36d32a813761c8b14649d2ddd assets/elzbietkamod/blockstates/sut_upgrader_station.json
 1ae78304df2a6c576d2651323424d4eb917c8b9a assets/elzbietkamod/models/block/deepslate_sut_ore.json
 623cd82780ff0a2b89fe467a2eb518ae0ffaf64a assets/elzbietkamod/models/block/potted_sutinka_flower.json
 ec59f21507f5563022bdb49606dc7503e518a187 assets/elzbietkamod/models/block/stripped_sutinka_log.json
@@ -101,3 +102,4 @@ aedaede5e96a9fc478953ad137a49284f5b8f3cf assets/elzbietkamod/models/item/sutinka
 e28f16630c4b665e8b4cc06d976e3917099abebb assets/elzbietkamod/models/item/sutinka_wood.json
 f0d8cc9f0270fcf0f6e917f6f3666702e588fcf4 assets/elzbietkamod/models/item/sut_block.json
 df32c209d0970b80e2c25c54537f5b68743cbca7 assets/elzbietkamod/models/item/sut_ore.json
+4839dbf64ca6cd09fc1647fc32ef31752a989b6d assets/elzbietkamod/models/item/sut_upgrader_station.json

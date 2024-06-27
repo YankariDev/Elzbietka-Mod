@@ -2,6 +2,7 @@ package net.elzbietkadev.elzbietkamod.block;
 
 import net.elzbietkadev.elzbietkamod.ElzbietkaMod;
 import net.elzbietkadev.elzbietkamod.block.custom.ModFlammableRotatedPillarBlock;
+import net.elzbietkadev.elzbietkamod.block.custom.SutUpgraderStationBlock;
 import net.elzbietkadev.elzbietkamod.block.custom.SutinkaCropBlock;
 import net.elzbietkadev.elzbietkamod.item.ModItems;
 import net.elzbietkadev.elzbietkamod.worldgen.tree.SutinkaTreeGrower;
@@ -126,6 +127,9 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
                     .strength(4.5f)
                     .requiresCorrectToolForDrops(), UniformInt.of(6,7)));
+
+    public static final RegistryObject<Block> SUT_UPGRADER_STATION = registerBlock("sut_upgrader_station",
+            () -> new SutUpgraderStationBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {

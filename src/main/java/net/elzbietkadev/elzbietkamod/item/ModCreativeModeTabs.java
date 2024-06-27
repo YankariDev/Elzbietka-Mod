@@ -35,6 +35,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SUTINKA_PLANKS_TRAPDOOR.get());
                         output.accept(ModBlocks.SUTINKA_LEAVES.get());
                         output.accept(ModBlocks.SUTINKA_FLOWER.get());
+                        output.accept(ModBlocks.SUT_UPGRADER_STATION.get());
                         output.accept(ModItems.CUM_MODELECZKI.get());
                         output.accept(ModItems.SUTINKA_SEEDS.get());
                         output.accept(ModBlocks.SUTINKA_SAPLING.get());

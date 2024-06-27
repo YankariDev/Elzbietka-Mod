@@ -1,39 +1,39 @@
-[27cze2024 14:12:39.952] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\yanka\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.1, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, elzbietkamod, --all, --output, C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\src\generated\resources, --existing, C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\src\main\resources]
-[27cze2024 14:12:39.962] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[27cze2024 14:12:40.260] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[27cze2024 14:12:40.465] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/yanka/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[27cze2024 14:12:41.422] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\yanka\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.1\b9fa98d5c9fa107169a3390a1c8993d2134fbf54\javafmllanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[27cze2024 14:12:41.430] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\yanka\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.1\aaa252b4d4c34d0c02e647d7a2ef3df3bc11d73a\lowcodelanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[27cze2024 14:12:41.438] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\yanka\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.1\1722b26446496b5e686cdf124342e8f7fd33dc91\mclanguage-1.20.1-47.3.1.jar is missing mods.toml file
-[27cze2024 14:12:41.445] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\yanka\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.1\4ed2bfe4ae3a6c27f587d45f58d648db68d19c00\fmlcore-1.20.1-47.3.1.jar is missing mods.toml file
-[27cze2024 14:12:41.670] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[27cze2024 14:12:45.122] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[27cze2024 14:12:45.136] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\yanka\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, elzbietkamod, --all, --output, C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\src\generated\resources, --existing, C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\src\main\resources]
-[27cze2024 14:12:45.951] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\build\createSrgToMcp\output.srg
-[27cze2024 14:12:45.956] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\build\createSrgToMcp\output.srg
-[27cze2024 14:12:46.872] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [elzbietkamod]
-[27cze2024 14:12:57.065] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.1, for MC 1.20.1 with MCP 20230612.114412
-[27cze2024 14:12:57.066] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.1 Initialized
-[27cze2024 14:12:57.137] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[27cze2024 14:12:57.139] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[27cze2024 14:12:57.140] [modloading-worker-0/INFO] [terrablender/]: Registered region elzbietkamod:overworld to index 1 for type OVERWORLD
-[27cze2024 14:12:57.775] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[27cze2024 14:12:57.790] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 9.444 ms
-[27cze2024 14:12:58.893] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/yanka/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_official_1.20.1/forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[27cze2024 14:12:58.894] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/yanka/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_official_1.20.1/forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[27cze2024 14:12:59.290] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[27cze2024 14:12:59.406] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 114 ms
-[27cze2024 14:12:59.406] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[27cze2024 14:12:59.775] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 368 ms
-[27cze2024 14:12:59.775] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: elzbietkamod
-[27cze2024 14:13:00.210] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: elzbietkamod finished after 434 ms
-[27cze2024 14:13:00.210] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: elzbietkamod
-[27cze2024 14:13:00.305] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: elzbietkamod finished after 95 ms
-[27cze2024 14:13:00.306] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id elzbietkamod
-[27cze2024 14:13:00.338] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id elzbietkamod finished after 32 ms
-[27cze2024 14:13:00.339] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id elzbietkamod
-[27cze2024 14:13:00.342] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id elzbietkamod finished after 2 ms
-[27cze2024 14:13:00.342] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
-[27cze2024 14:13:00.373] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 30 ms
-[27cze2024 14:13:00.373] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 1083 ms
-[27cze2024 14:13:00.409] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 347, old count: 348, new count: 348, removed stale: 0, written: 0
+[27cze2024 18:51:17.136] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\yanka\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.1, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, elzbietkamod, --all, --output, C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\src\generated\resources, --existing, C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\src\main\resources]
+[27cze2024 18:51:17.141] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[27cze2024 18:51:17.295] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[27cze2024 18:51:17.368] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/yanka/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[27cze2024 18:51:17.793] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\yanka\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.1\b9fa98d5c9fa107169a3390a1c8993d2134fbf54\javafmllanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[27cze2024 18:51:17.798] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\yanka\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.1\aaa252b4d4c34d0c02e647d7a2ef3df3bc11d73a\lowcodelanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[27cze2024 18:51:17.802] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\yanka\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.1\1722b26446496b5e686cdf124342e8f7fd33dc91\mclanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[27cze2024 18:51:17.807] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\yanka\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.1\4ed2bfe4ae3a6c27f587d45f58d648db68d19c00\fmlcore-1.20.1-47.3.1.jar is missing mods.toml file
+[27cze2024 18:51:17.958] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[27cze2024 18:51:20.228] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[27cze2024 18:51:20.236] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\yanka\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, elzbietkamod, --all, --output, C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\src\generated\resources, --existing, C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\src\main\resources]
+[27cze2024 18:51:20.867] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\build\createSrgToMcp\output.srg
+[27cze2024 18:51:20.869] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\yanka\Desktop\Modding\Porncraft\El¿bietkaMod\build\createSrgToMcp\output.srg
+[27cze2024 18:51:21.394] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [elzbietkamod]
+[27cze2024 18:51:28.134] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.1, for MC 1.20.1 with MCP 20230612.114412
+[27cze2024 18:51:28.136] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.1 Initialized
+[27cze2024 18:51:28.181] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[27cze2024 18:51:28.182] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[27cze2024 18:51:28.182] [modloading-worker-0/INFO] [terrablender/]: Registered region elzbietkamod:overworld to index 1 for type OVERWORLD
+[27cze2024 18:51:28.490] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[27cze2024 18:51:28.513] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 19.88 ms
+[27cze2024 18:51:29.014] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/yanka/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_official_1.20.1/forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[27cze2024 18:51:29.014] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/yanka/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_official_1.20.1/forge-1.20.1-47.3.1_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[27cze2024 18:51:29.348] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[27cze2024 18:51:29.456] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 107 ms
+[27cze2024 18:51:29.457] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[27cze2024 18:51:29.748] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 291 ms
+[27cze2024 18:51:29.748] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: elzbietkamod
+[27cze2024 18:51:30.155] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: elzbietkamod finished after 405 ms
+[27cze2024 18:51:30.155] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: elzbietkamod
+[27cze2024 18:51:30.238] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: elzbietkamod finished after 83 ms
+[27cze2024 18:51:30.238] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id elzbietkamod
+[27cze2024 18:51:30.266] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id elzbietkamod finished after 27 ms
+[27cze2024 18:51:30.266] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id elzbietkamod
+[27cze2024 18:51:30.268] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id elzbietkamod finished after 2 ms
+[27cze2024 18:51:30.268] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[27cze2024 18:51:30.312] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 43 ms
+[27cze2024 18:51:30.312] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 965 ms
+[27cze2024 18:51:30.377] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 350, old count: 351, new count: 351, removed stale: 0, written: 0

@@ -80,6 +80,9 @@ public class ModBlockStateProvider extends BlockStateProvider
         slabBlock(((SlabBlock) ModBlocks.SUPER_SUT_STONE_BRICKS_SLAB.get()), blockTexture(ModBlocks.SUPER_SUT_STONE_BRICKS.get()),
                 blockTexture(ModBlocks.SUPER_SUT_STONE_BRICKS.get()));
         wallBlock(((WallBlock) ModBlocks.SUPER_SUT_STONE_BRICKS_WALL.get()), blockTexture(ModBlocks.SUPER_SUT_STONE_BRICKS.get()));
+
+        simpleBlockWithItem(ModBlocks.SUT_UPGRADER_STATION.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/sut_upgrader")));
     }
 
     public void makeSutinkaCrop(CropBlock block, String modelName, String textureName)
