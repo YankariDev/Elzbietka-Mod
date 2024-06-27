@@ -31,6 +31,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SUT_BLOCK = registerBlock("sut_block",
             () -> new Block((BlockBehaviour.Properties.copy(Blocks.ACACIA_WOOD).sound(SoundType.METAL).strength(0.5f))));
+    public static final RegistryObject<Block> GLOWING_SUT_BLOCK = registerBlock("glowing_sut_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).lightLevel((p_152607_) -> {
+                return 15;
+            })));
 
     public static final RegistryObject<Block> SUT_ORE = registerBlock("sut_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)

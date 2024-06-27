@@ -1,5 +1,6 @@
-// 1.20.1	2024-06-27T18:30:43.6554068	Loot Tables
+// 1.20.1	2024-06-27T21:42:59.3760015	Loot Tables
 afee2708e2e87d09d017c9617c077657fa1c1bc2 data/elzbietkamod/loot_tables/blocks/deepslate_sut_ore.json
+4471a3a8d087cecf4f9a5f2924efb7efd0b95c66 data/elzbietkamod/loot_tables/blocks/glowing_sut_block.json
 f1f1e2657bf47175d18d991bcc870aa6b887aefa data/elzbietkamod/loot_tables/blocks/potted_sutinka_flower.json
 0ef2a1d8d08e12c36013faf5d5ba0284dab9bd27 data/elzbietkamod/loot_tables/blocks/stripped_sutinka_log.json
 3f98c45475d76831523d8273646f92d46ed8ae54 data/elzbietkamod/loot_tables/blocks/stripped_sutinka_wood.json

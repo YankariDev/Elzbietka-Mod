@@ -324,6 +324,22 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.SUPER_SUT.get()), has(ModItems.SUPER_SUT.get()))
                 .save(consumer);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GLOWING_SUT_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.GLOWING_SUT.get())
+                .unlockedBy(getHasName(ModItems.GLOWING_SUT.get()), has(ModItems.GLOWING_SUT.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GLOWING_SUT.get())
+                .pattern(" A ")
+                .pattern("ABA")
+                .pattern(" A ")
+                .define('A', ModItems.SUT.get())
+                .define('B', Items.GLOWSTONE_DUST)
+                .unlockedBy(getHasName(Items.GLOWSTONE_DUST), has(Items.GLOWSTONE_DUST))
+                .save(consumer);
+
         planksFromLogs(consumer, ModBlocks.SUTINKA_PLANKS.get(), ModTags.Items.SUTINKA_LOGS, 4);
     }
 

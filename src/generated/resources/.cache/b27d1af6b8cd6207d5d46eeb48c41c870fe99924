@@ -1,5 +1,6 @@
-// 1.20.1	2024-06-27T18:30:43.6509125	Block States: elzbietkamod
+// 1.20.1	2024-06-27T21:42:59.3660274	Block States: elzbietkamod
 fdc941dca3fd42cba2c54844297118ccfea6ce78 assets/elzbietkamod/blockstates/deepslate_sut_ore.json
+48b32e7c6dae64099fcbe5ab94fc9f1a05118841 assets/elzbietkamod/blockstates/glowing_sut_block.json
 d06ce7e96fed22ab38c96e90c77dbcfdaeb39a54 assets/elzbietkamod/blockstates/potted_sutinka_flower.json
 12e9be540d218fa4b436dace11e271a030c418a3 assets/elzbietkamod/blockstates/stripped_sutinka_log.json
 1dfd9139ab2f401bf66b2a80af01e4df2dd7a6cd assets/elzbietkamod/blockstates/stripped_sutinka_wood.json
@@ -28,6 +29,7 @@ f90907f914e6ac2f7258a57d6d1fe5d437a38ec0 assets/elzbietkamod/blockstates/sut_blo
 65cbcb4239d43fc113f9e428f7bf52e3fe221bdc assets/elzbietkamod/blockstates/sut_ore.json
 a2b479417989d4d36d32a813761c8b14649d2ddd assets/elzbietkamod/blockstates/sut_upgrader_station.json
 1ae78304df2a6c576d2651323424d4eb917c8b9a assets/elzbietkamod/models/block/deepslate_sut_ore.json
+a95a2153323545c08f35ee707173a59ce8779a1c assets/elzbietkamod/models/block/glowing_sut_block.json
 623cd82780ff0a2b89fe467a2eb518ae0ffaf64a assets/elzbietkamod/models/block/potted_sutinka_flower.json
 ec59f21507f5563022bdb49606dc7503e518a187 assets/elzbietkamod/models/block/stripped_sutinka_log.json
 4b2366eae580353eb7ba75cc4af9bb94ca36f4fa assets/elzbietkamod/models/block/stripped_sutinka_log_horizontal.json
@@ -89,6 +91,7 @@ f9b023e19afd1367b9febd2d51ea2e58815abc03 assets/elzbietkamod/models/block/sutink
 76373accc6ba4909731e0d775aaa6f9188232c4e assets/elzbietkamod/models/block/sut_block.json
 e7b7398716d8e531acd62416f6f0ec6b54b3f1fc assets/elzbietkamod/models/block/sut_ore.json
 c1c92ee27c02fd24c088938695461930d3fcdb4d assets/elzbietkamod/models/item/deepslate_sut_ore.json
+004117d3ea8f00f2424dbb906c611f6488d9afec assets/elzbietkamod/models/item/glowing_sut_block.json
 0b309a0502bab762560ecc7eb5ce7a80adc61623 assets/elzbietkamod/models/item/potted_sutinka_flower.json
 87350aff7241f4b883042b81803e9f2b7a8d2895 assets/elzbietkamod/models/item/stripped_sutinka_log.json
 e0ad7db0c440a482522f19baa7c5f263d3e7a1fe assets/elzbietkamod/models/item/stripped_sutinka_wood.json

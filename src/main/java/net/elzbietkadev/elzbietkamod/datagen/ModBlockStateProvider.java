@@ -26,6 +26,7 @@ public class ModBlockStateProvider extends BlockStateProvider
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.SUT_BLOCK);
+        blockWithItem(ModBlocks.GLOWING_SUT_BLOCK);
         blockWithItem(ModBlocks.SUT_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_SUT_ORE);
         blockWithItem(ModBlocks.SUTINKA_PLANKS);
