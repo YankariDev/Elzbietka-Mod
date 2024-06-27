@@ -17,6 +17,7 @@ import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.item.crafting.StonecutterRecipe;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.StonecutterBlock;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
@@ -310,6 +311,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("A A")
                 .pattern("A A")
                 .define('A', ModItems.SUPER_SUT.get())
+                .unlockedBy(getHasName(ModItems.SUPER_SUT.get()), has(ModItems.SUPER_SUT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SUT_UPGRADER_STATION.get())
+                .pattern("ACA")
+                .pattern("BCB")
+                .pattern("ACA")
+                .define('A', ModItems.SUT.get())
+                .define('B', Blocks.OBSIDIAN)
+                .define('C', ModItems.SUPER_SUT.get())
                 .unlockedBy(getHasName(ModItems.SUPER_SUT.get()), has(ModItems.SUPER_SUT.get()))
                 .save(consumer);
 

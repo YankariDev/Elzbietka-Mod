@@ -1,0 +1,15 @@
+{
+  "type": "elzbietkamod:sut_upgrader",
+  "ingredients": [
+    {
+      "item": "elzbietkamod:sut"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "elzbietkamod:sutinka"
+  }
+}

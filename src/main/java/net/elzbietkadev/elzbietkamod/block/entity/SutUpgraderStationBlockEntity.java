@@ -1,6 +1,7 @@
 package net.elzbietkadev.elzbietkamod.block.entity;
 
 import net.elzbietkadev.elzbietkamod.item.ModItems;
+import net.elzbietkadev.elzbietkamod.recipe.SutUpgraderRecipe;
 import net.elzbietkadev.elzbietkamod.screen.SutUpgraderStationMenu;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -25,6 +26,8 @@ import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.Optional;
 
 public class SutUpgraderStationBlockEntity extends BlockEntity implements MenuProvider {
     private final ItemStackHandler itemHandler = new ItemStackHandler(3);
@@ -140,7 +143,9 @@ public class SutUpgraderStationBlockEntity extends BlockEntity implements MenuPr
     }
 
     private void craftItem() {
-        ItemStack result = new ItemStack(ModItems.SUT_SPAWN_EGG.get(), 1);
+        Optional<SutUpgraderRecipe> recipe = getCurrentRecipe();
+        ItemStack result = recipe.get().getResultItem(getLevel().registryAccess());
+
         this.itemHandler.extractItem(INPUT_SLOT, 1, false);
         this.itemHandler.extractItem(ADDON_SLOT, 1, false);
 
@@ -149,12 +154,25 @@ public class SutUpgraderStationBlockEntity extends BlockEntity implements MenuPr
     }
 
     private boolean hasRecipe() {
-        boolean hasInputItem = this.itemHandler.getStackInSlot(INPUT_SLOT).getItem() == ModItems.SUT.get();
-        boolean hasAddonItem = this.itemHandler.getStackInSlot(ADDON_SLOT).getItem() == ModItems.SUPER_SUT.get();
-        ItemStack result = new ItemStack(ModItems.SUT_SPAWN_EGG.get());
+        Optional<SutUpgraderRecipe> recipe = getCurrentRecipe();
+        if (recipe.isEmpty())
+        {
+            return false;
+        }
+        ItemStack result = recipe.get().getResultItem(getLevel().registryAccess());
 
+        return canInsertItemIntoOutputSlot(result.getItem()) && canInsertAmountIntoOutputSlot(result.getCount());
+    }
 
-        return hasInputItem && hasAddonItem && canInsertItemIntoOutputSlot(result.getItem()) && canInsertAmountIntoOutputSlot(result.getCount());
+    private Optional<SutUpgraderRecipe> getCurrentRecipe()
+    {
+        SimpleContainer inventory = new SimpleContainer(this.itemHandler.getSlots());
+        for (int i = 0; i < itemHandler.getSlots(); i++)
+        {
+            inventory.setItem(i, this.itemHandler.getStackInSlot(i));
+        }
+
+        return this.level.getRecipeManager().getRecipeFor(SutUpgraderRecipe.Type.INSTANCE, inventory, level);
     }
 
     private boolean canInsertItemIntoOutputSlot(Item item) {

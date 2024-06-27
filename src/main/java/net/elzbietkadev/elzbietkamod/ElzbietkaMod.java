@@ -8,6 +8,7 @@ import net.elzbietkadev.elzbietkamod.entity.client.SutRenderer;
 import net.elzbietkadev.elzbietkamod.item.ModCreativeModeTabs;
 import net.elzbietkadev.elzbietkamod.item.ModItems;
 import net.elzbietkadev.elzbietkamod.loot.ModLootModifiers;
+import net.elzbietkadev.elzbietkamod.recipe.ModRecipes;
 import net.elzbietkadev.elzbietkamod.screen.ModMenuTypes;
 import net.elzbietkadev.elzbietkamod.screen.SutUpgraderStationScreen;
 import net.elzbietkadev.elzbietkamod.sound.ModSounds;
@@ -49,6 +50,7 @@ public class ElzbietkaMod
         ModLootModifiers.register(modEventBus);
         ModBlockEntities.register(modEventBus);
         ModMenuTypes.register(modEventBus);
+        ModRecipes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
