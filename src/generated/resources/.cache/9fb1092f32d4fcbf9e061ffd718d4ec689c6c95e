@@ -1,4 +1,4 @@
-// 1.20.1	2024-06-27T13:46:14.864061	Recipes
+// 1.20.1	2024-06-27T21:12:46.3270229	Recipes
 59f8bcd0d0ad4a8bc9a355c15bf5c8cbfbcb0036 data/elzbietkamod/advancements/recipes/building_blocks/stripped_sutinka_wood.json
 ab7524073c793c8e982ca46df250d8a689b16f0b data/elzbietkamod/advancements/recipes/building_blocks/super_sut_stone_bricks_slab.json
 9b2b0fd6369506c377d4392f0a93690512c3ca96 data/elzbietkamod/advancements/recipes/building_blocks/super_sut_stone_bricks_stairs.json
@@ -38,6 +38,7 @@ c0290be869a52ea9c80c4cbdc182d57a6237f245 data/elzbietkamod/advancements/recipes/
 57eab7f393b9a6a12d31da5b5d71dc8f5c9a67d0 data/elzbietkamod/advancements/recipes/misc/sutinka_seeds.json
 fd799b396be520582c3f04e932674064606f35f1 data/elzbietkamod/advancements/recipes/misc/sut_block.json
 cc36406cce5827f7ab3dc68d06e57ddfe8dbe035 data/elzbietkamod/advancements/recipes/misc/sut_spawn_egg.json
+1d8398e7bff68cd5ee749f649ce77208d301f1d3 data/elzbietkamod/advancements/recipes/misc/sut_upgrader_station.json
 7a5b19c2e8a271bf05ba953303363af843434ce2 data/elzbietkamod/recipes/cum_modeleczki_from_smelting_sut.json
 926cca35294ee2524acc2df1ca4e1c34f9e644c7 data/elzbietkamod/recipes/cum_modeleczki_from_smelting_sutinka.json
 60c301f5df6934601210ca792651764b3ff30627 data/elzbietkamod/recipes/stripped_sutinka_wood.json
@@ -77,3 +78,4 @@ e4f5d3b2790f35d3e9156fe328d3dc5ab8044632 data/elzbietkamod/recipes/sut_pickaxe.j
 4cd9b61e21961f8fca097a728928f5fb97f5387b data/elzbietkamod/recipes/sut_shovel.json
 4c51a9619ec1b0bc35eb618fd7b205133a049dd6 data/elzbietkamod/recipes/sut_spawn_egg.json
 61dd079cc44dcedf796aaa384cc6fb784e4d3b96 data/elzbietkamod/recipes/sut_sword.json
+72194ab12a99b929c365ee2f762aee0e524a845e data/elzbietkamod/recipes/sut_upgrader_station.json

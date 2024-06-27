@@ -44,6 +44,7 @@ public class ModItemModelProvider extends ItemModelProvider
     @Override
     protected void registerModels() {
         simpleItem(ModItems.SUT);
+        simpleItem(ModItems.GLOWING_SUT);
         simpleItem(ModItems.SUTINKA_SEEDS);
         simpleItem(ModItems.CUM_MODELECZKI);
         simpleItem(ModItems.SUTINKA);

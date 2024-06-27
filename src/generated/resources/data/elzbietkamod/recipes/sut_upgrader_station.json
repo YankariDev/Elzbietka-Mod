@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "elzbietkamod:sut"
+    },
+    "B": {
+      "item": "minecraft:obsidian"
+    },
+    "C": {
+      "item": "elzbietkamod:super_sut"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "BCB",
+    "ACA"
+  ],
+  "result": {
+    "item": "elzbietkamod:sut_upgrader_station"
+  },
+  "show_notification": true
+}

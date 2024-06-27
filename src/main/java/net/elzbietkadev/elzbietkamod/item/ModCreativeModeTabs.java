@@ -42,6 +42,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ZJEBUSKA_MUSIC_DISC.get());
                         output.accept(ModBlocks.SUT_BLOCK.get());
                         output.accept(ModItems.SUT.get());
+                        output.accept(ModItems.GLOWING_SUT.get());
                         output.accept(ModItems.SUTINKA.get());
                         output.accept(ModItems.SUT_HOE.get());
                         output.accept(ModItems.SUT_SWORD.get());

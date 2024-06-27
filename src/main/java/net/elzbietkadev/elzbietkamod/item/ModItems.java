@@ -17,6 +17,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> SUT = ITEMS.register("sut",
             () -> new Item(new Item.Properties().food(ModFoods.SUT)));
+    public static final RegistryObject<Item> GLOWING_SUT = ITEMS.register("glowing_sut",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SUTINKA = ITEMS.register("sutinka",
             () -> new Item(new Item.Properties().food(ModFoods.SUTINKA)));
 
