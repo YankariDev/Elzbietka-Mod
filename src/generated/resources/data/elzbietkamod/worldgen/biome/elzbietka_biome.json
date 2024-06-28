@@ -77,9 +77,6 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_plains",
-      "minecraft:flower_plains",
-      "minecraft:patch_grass_plain",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "elzbietkamod:sutinka_tree_placed",
@@ -104,9 +101,15 @@
     "creature": [
       {
         "type": "minecraft:cow",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 2
+      },
+      {
+        "type": "elzbietkamod:sut_entity",
         "maxCount": 4,
-        "minCount": 4,
-        "weight": 5
+        "minCount": 3,
+        "weight": 4
       },
       {
         "type": "minecraft:sheep",

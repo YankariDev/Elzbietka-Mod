@@ -3,6 +3,7 @@ package net.elzbietkadev.elzbietkamod.item;
 import net.elzbietkadev.elzbietkamod.ElzbietkaMod;
 import net.elzbietkadev.elzbietkamod.block.ModBlocks;
 import net.elzbietkadev.elzbietkamod.entity.ModEntities;
+import net.elzbietkadev.elzbietkamod.item.custom.FuelItem;
 import net.elzbietkadev.elzbietkamod.sound.ModSounds;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
@@ -19,11 +20,12 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.SUT)));
     public static final RegistryObject<Item> GLOWING_SUT = ITEMS.register("glowing_sut",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SUT_COAL = ITEMS.register("sut_coal",
+            () -> new FuelItem(new Item.Properties(), 1200));
+    public static final RegistryObject<Item> OGIEN_SIE_PALI = ITEMS.register("ogien_sie_pali",
+            () -> new FuelItem(new Item.Properties(), 200));
     public static final RegistryObject<Item> SUTINKA = ITEMS.register("sutinka",
             () -> new Item(new Item.Properties().food(ModFoods.SUTINKA)));
-
-    public static final RegistryObject<Item> CUM_MODELECZKI = ITEMS.register("cum_modeleczki",
-            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> SUTINKA_SEEDS = ITEMS.register("sutinka_seeds",
             () -> new ItemNameBlockItem(ModBlocks.SUTINKA_CROP.get(), new Item.Properties()));

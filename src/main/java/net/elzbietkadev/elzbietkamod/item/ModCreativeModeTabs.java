@@ -36,7 +36,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SUTINKA_LEAVES.get());
                         output.accept(ModBlocks.SUTINKA_FLOWER.get());
                         output.accept(ModBlocks.SUT_UPGRADER_STATION.get());
-                        output.accept(ModItems.CUM_MODELECZKI.get());
+                        output.accept(ModItems.OGIEN_SIE_PALI.get());
                         output.accept(ModItems.SUTINKA_SEEDS.get());
                         output.accept(ModBlocks.SUTINKA_SAPLING.get());
                         output.accept(ModItems.ZJEBUSKA_MUSIC_DISC.get());
@@ -44,6 +44,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.GLOWING_SUT_BLOCK.get());
                         output.accept(ModItems.SUT.get());
                         output.accept(ModItems.GLOWING_SUT.get());
+                        output.accept(ModItems.SUT_COAL.get());
                         output.accept(ModItems.SUTINKA.get());
                         output.accept(ModItems.SUT_HOE.get());
                         output.accept(ModItems.SUT_SWORD.get());

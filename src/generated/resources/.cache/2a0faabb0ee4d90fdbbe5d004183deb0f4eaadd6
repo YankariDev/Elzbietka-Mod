@@ -1,6 +1,7 @@
-// 1.20.1	2024-06-27T21:12:46.354214	Item Models: elzbietkamod
+// 1.20.1	2024-06-28T22:31:24.7828454	Item Models: elzbietkamod
 2823b46204cdc126288fc274cf210f65915235d7 assets/elzbietkamod/models/item/cum_modeleczki.json
 f0baf4b6e13fda4406a80b07edea17276a32d56e assets/elzbietkamod/models/item/glowing_sut.json
+f1c2a114ac9a88661fb4bf7dd101551b497652d1 assets/elzbietkamod/models/item/ogien_sie_pali.json
 448727dc611c52e50e665bd6711a09bb185d4338 assets/elzbietkamod/models/item/super_sut.json
 835c75feb5ea719e9230aa30bfb4d6b2af0720af assets/elzbietkamod/models/item/super_sut_axe.json
 a765da9bc7467bdb67a8ac1f7fdbd88c417bd84a assets/elzbietkamod/models/item/super_sut_boots.json
@@ -90,6 +91,7 @@ aac5c5d8523486f81da7124b1c9924f07a186959 assets/elzbietkamod/models/item/sut_che
 3244e689d751fefa0297586204ea1bea37744db2 assets/elzbietkamod/models/item/sut_chestplate_netherite_trim.json
 fdce997d47b95f37ec401030bcff01aa060afc24 assets/elzbietkamod/models/item/sut_chestplate_quartz_trim.json
 6d94fdcbf573704563f8febab9230bbd713f0339 assets/elzbietkamod/models/item/sut_chestplate_redstone_trim.json
+e81fe9266b29d526b7d0bac32904a77448cbe25b assets/elzbietkamod/models/item/sut_coal.json
 27fb545af206c04d596aa2ed81f2bb3f4eafb146 assets/elzbietkamod/models/item/sut_helmet.json
 7188516aeeba94fc0da7c458cb52d0a64b2cd7c7 assets/elzbietkamod/models/item/sut_helmet_amethyst_trim.json
 6baad2ffd78d18595ea4256a91ed5ea936d7335e assets/elzbietkamod/models/item/sut_helmet_copper_trim.json

@@ -45,8 +45,9 @@ public class ModItemModelProvider extends ItemModelProvider
     protected void registerModels() {
         simpleItem(ModItems.SUT);
         simpleItem(ModItems.GLOWING_SUT);
+        simpleItem(ModItems.SUT_COAL);
+        simpleItem(ModItems.OGIEN_SIE_PALI);
         simpleItem(ModItems.SUTINKA_SEEDS);
-        simpleItem(ModItems.CUM_MODELECZKI);
         simpleItem(ModItems.SUTINKA);
         simpleItem(ModItems.ZJEBUSKA_MUSIC_DISC);
         saplingItem(ModBlocks.SUTINKA_SAPLING);

@@ -1,0 +1,15 @@
+{
+  "type": "elzbietkamod:sut_upgrader",
+  "ingredients": [
+    {
+      "item": "elzbietkamod:sut"
+    },
+    {
+      "item": "elzbietkamod:ogien_sie_pali"
+    }
+  ],
+  "output": {
+    "count": 4,
+    "item": "elzbietkamod:sut_coal"
+  }
+}

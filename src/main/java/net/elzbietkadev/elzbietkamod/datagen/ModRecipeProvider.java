@@ -37,7 +37,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
-        oreSmelting(consumer, SUT_FOOD, RecipeCategory.MISC, ModItems.CUM_MODELECZKI.get(), 0.4f, 125, "cum_modeleczki");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SUT_BLOCK.get())
                 .pattern("AAA")
@@ -236,6 +235,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SUTINKA_SEEDS.get(), 2)
                 .requires(ModItems.SUTINKA.get())
                 .unlockedBy(getHasName(ModItems.SUTINKA.get()), has(ModItems.SUTINKA.get()))
+                .save(consumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.OGIEN_SIE_PALI.get(), 1)
+                .requires(Items.FLINT)
+                .unlockedBy(getHasName(Items.FLINT), has(Items.FLINT))
                 .save(consumer);
 
 
