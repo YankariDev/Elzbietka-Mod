@@ -55,6 +55,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SUT_CHESTPLATE.get());
                         output.accept(ModItems.SUT_LEGGINGS.get());
                         output.accept(ModItems.SUT_BOOTS.get());
+                        output.accept(ModItems.SUT_MEAT.get());
+                        output.accept(ModItems.COOKED_SUT_MEAT.get());
 
 
 

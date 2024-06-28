@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_sutinka": {
+    "has_sut_meat": {
       "conditions": {
         "items": [
           {
             "items": [
-              "elzbietkamod:sutinka"
+              "elzbietkamod:sut_meat"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "elzbietkamod:cum_modeleczki_from_smelting_sutinka"
+        "recipe": "elzbietkamod:cooked_sut_meat_from_smelting_sut_meat"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_sutinka",
+      "has_sut_meat",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "elzbietkamod:cum_modeleczki_from_smelting_sutinka"
+      "elzbietkamod:cooked_sut_meat_from_smelting_sut_meat"
     ]
   },
   "sends_telemetry_event": false

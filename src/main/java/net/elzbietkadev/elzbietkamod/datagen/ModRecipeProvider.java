@@ -30,13 +30,14 @@ import static net.minecraft.advancements.critereon.InventoryChangeTrigger.*;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder
 {
-    private static final List<ItemLike> SUT_FOOD = List.of(ModItems.SUT.get(), ModItems.SUTINKA.get());
+    private static final List<ItemLike> SUT_FOOD = List.of(ModItems.SUT_MEAT.get());
     public ModRecipeProvider(PackOutput p_248933_) {
         super(p_248933_);
     }
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
+        oreSmelting(consumer, SUT_FOOD, RecipeCategory.FOOD, ModItems.COOKED_SUT_MEAT.get(), 0.25f, 200, "sut_meat");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SUT_BLOCK.get())
                 .pattern("AAA")
@@ -342,6 +343,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.SUT.get())
                 .define('B', Items.GLOWSTONE_DUST)
                 .unlockedBy(getHasName(Items.GLOWSTONE_DUST), has(Items.GLOWSTONE_DUST))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ZJEBUSKA_MUSIC_DISC.get())
+                .pattern(" A ")
+                .pattern("ABA")
+                .pattern(" A ")
+                .define('A', Items.REDSTONE)
+                .define('B', ModItems.SUT.get())
+                .unlockedBy(getHasName(ModItems.SUT.get()), has(ModItems.SUT.get()))
                 .save(consumer);
 
         planksFromLogs(consumer, ModBlocks.SUTINKA_PLANKS.get(), ModTags.Items.SUTINKA_LOGS, 4);

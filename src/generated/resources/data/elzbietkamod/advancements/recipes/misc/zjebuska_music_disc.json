@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "elzbietkamod:cum_modeleczki_from_smelting_sut"
+        "recipe": "elzbietkamod:zjebuska_music_disc"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "elzbietkamod:cum_modeleczki_from_smelting_sut"
+      "elzbietkamod:zjebuska_music_disc"
     ]
   },
   "sends_telemetry_event": false

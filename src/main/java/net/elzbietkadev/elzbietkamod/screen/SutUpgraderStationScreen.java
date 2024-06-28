@@ -2,12 +2,18 @@ package net.elzbietkadev.elzbietkamod.screen;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.elzbietkadev.elzbietkamod.ElzbietkaMod;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.MouseHandler;
+import net.minecraft.client.gui.Gui;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Inventory;
+
+import java.awt.*;
 
 public class SutUpgraderStationScreen extends AbstractContainerScreen<SutUpgraderStationMenu> {
     private static final ResourceLocation TEXTURE =
@@ -33,6 +39,7 @@ public class SutUpgraderStationScreen extends AbstractContainerScreen<SutUpgrade
         int y = (height - imageHeight) / 2;
 
         guiGraphics.blit(TEXTURE, x, y, 0, 0, imageWidth, imageHeight);
+        guiGraphics.blit(TEXTURE, x + 30, y + 50, 176, 17, 20, 18);
 
         renderProgressArrow(guiGraphics, x, y);
     }
@@ -48,5 +55,6 @@ public class SutUpgraderStationScreen extends AbstractContainerScreen<SutUpgrade
         renderBackground(guiGraphics);
         super.render(guiGraphics, mouseX, mouseY, delta);
         renderTooltip(guiGraphics, mouseX, mouseY);
+
     }
 }

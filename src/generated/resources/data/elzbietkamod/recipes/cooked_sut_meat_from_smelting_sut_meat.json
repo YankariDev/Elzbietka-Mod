@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "sut_meat",
+  "ingredient": {
+    "item": "elzbietkamod:sut_meat"
+  },
+  "result": "elzbietkamod:cooked_sut_meat"
+}

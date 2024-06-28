@@ -1,5 +1,5 @@
-// 1.20.1	2024-06-28T22:31:24.7828454	Item Models: elzbietkamod
-2823b46204cdc126288fc274cf210f65915235d7 assets/elzbietkamod/models/item/cum_modeleczki.json
+// 1.20.1	2024-06-28T23:21:22.8604214	Item Models: elzbietkamod
+7532ad6f4d754ba25d937701583228aae5255296 assets/elzbietkamod/models/item/cooked_sut_meat.json
 f0baf4b6e13fda4406a80b07edea17276a32d56e assets/elzbietkamod/models/item/glowing_sut.json
 f1c2a114ac9a88661fb4bf7dd101551b497652d1 assets/elzbietkamod/models/item/ogien_sie_pali.json
 448727dc611c52e50e665bd6711a09bb185d4338 assets/elzbietkamod/models/item/super_sut.json
@@ -115,6 +115,7 @@ d5f67e5ad8cac9ea95179f69b054bc5deac1d0f7 assets/elzbietkamod/models/item/sut_leg
 f84afaaa41058a9c077f3a3d6a8ff8c1b016f108 assets/elzbietkamod/models/item/sut_leggings_netherite_trim.json
 0cf517101c7ca7d401fe40ea362b9984532f407b assets/elzbietkamod/models/item/sut_leggings_quartz_trim.json
 4fc5c0fccec8f3c26b3e30c9c6f30692512c3038 assets/elzbietkamod/models/item/sut_leggings_redstone_trim.json
+5de1eea0f11e5245235a8d44731f4c883fc06ff9 assets/elzbietkamod/models/item/sut_meat.json
 eddf66ad99347cdfd81481738b47d96ef5dfd279 assets/elzbietkamod/models/item/sut_pickaxe.json
 ec21c7d7a7f89f8f45bd1ad172730acd4ca2fec8 assets/elzbietkamod/models/item/sut_shovel.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/elzbietkamod/models/item/sut_spawn_egg.json

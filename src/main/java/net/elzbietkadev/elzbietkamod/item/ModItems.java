@@ -81,6 +81,11 @@ public class ModItems {
     public static final RegistryObject<Item> SUT_SPAWN_EGG = ITEMS.register("sut_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.SUT, 0xffae86, 0xa73400, new Item.Properties()));
 
+    public static final RegistryObject<Item> SUT_MEAT = ITEMS.register("sut_meat",
+            () -> new Item(new Item.Properties().food(ModFoods.SUT_MEAT)));
+    public static final RegistryObject<Item> COOKED_SUT_MEAT = ITEMS.register("cooked_sut_meat",
+            () -> new Item(new Item.Properties().food(ModFoods.COOKED_SUT_MEAT)));
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);

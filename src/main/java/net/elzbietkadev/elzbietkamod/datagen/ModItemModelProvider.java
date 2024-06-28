@@ -50,6 +50,8 @@ public class ModItemModelProvider extends ItemModelProvider
         simpleItem(ModItems.SUTINKA_SEEDS);
         simpleItem(ModItems.SUTINKA);
         simpleItem(ModItems.ZJEBUSKA_MUSIC_DISC);
+        simpleItem(ModItems.SUT_MEAT);
+        simpleItem(ModItems.COOKED_SUT_MEAT);
         saplingItem(ModBlocks.SUTINKA_SAPLING);
 
         simpleBlockItem(ModBlocks.SUTINKA_PLANKS_DOOR);

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "elzbietkamod:item/cum_modeleczki"
+    "layer0": "elzbietkamod:item/cooked_sut_meat"
   }
 }
