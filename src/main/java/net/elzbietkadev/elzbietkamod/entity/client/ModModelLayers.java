@@ -7,4 +7,6 @@ import net.minecraft.resources.ResourceLocation;
 public class ModModelLayers {
     public static final ModelLayerLocation SUT_ENTITY_LAYER = new ModelLayerLocation(
             new ResourceLocation(ElzbietkaMod.MOD_ID, "sut_entity_layer"), "main");
+    public static final ModelLayerLocation ELZBIETKA_ENTITY_LAYER = new ModelLayerLocation(
+            new ResourceLocation(ElzbietkaMod.MOD_ID, "elzbietka_entity_layer"), "main");
 }

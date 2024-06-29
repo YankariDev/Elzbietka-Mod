@@ -65,14 +65,6 @@ public class SutEntityModel<T extends Entity> extends HierarchicalModel<T> {
 	}
 
 	@Override
-	public void setupAnim(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
-		this.root().getAllParts().forEach(ModelPart::resetPose);
-
-		this.animateWalk(SutEntityAnimations.walk, limbSwing, limbSwingAmount, 1, 1);
-		this.animate(((SutEntity) entity).idleAnimationState, SutEntityAnimations.idle, ageInTicks, 1);
-	}
-
-	@Override
 	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {
 		sut.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
 	}
@@ -80,5 +72,13 @@ public class SutEntityModel<T extends Entity> extends HierarchicalModel<T> {
 	@Override
 	public ModelPart root() {
 		return sut;
+	}
+
+	@Override
+	public void setupAnim(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
+		this.root().getAllParts().forEach(ModelPart::resetPose);
+
+		this.animateWalk(SutEntityAnimations.walk, limbSwing, limbSwingAmount, 1, 1);
+		this.animate(((SutEntity) entity).idleAnimationState, SutEntityAnimations.idle, ageInTicks, 1);
 	}
 }

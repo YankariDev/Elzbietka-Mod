@@ -1,6 +1,7 @@
 package net.elzbietkadev.elzbietkamod.entity;
 
 import net.elzbietkadev.elzbietkamod.ElzbietkaMod;
+import net.elzbietkadev.elzbietkamod.entity.custom.ElzbietkaEntity;
 import net.elzbietkadev.elzbietkamod.entity.custom.SutEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -14,8 +15,11 @@ public class ModEntities {
             DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, ElzbietkaMod.MOD_ID);
 
     public static final RegistryObject<EntityType<SutEntity>> SUT =
-            ENTITY_TYPES.register("sut_entity", () -> EntityType.Builder.of(SutEntity::new, MobCategory.MONSTER)
+            ENTITY_TYPES.register("sut_entity", () -> EntityType.Builder.of(SutEntity::new, MobCategory.CREATURE)
                     .sized(1f, 1f).build("sut_entity"));
+    public static final RegistryObject<EntityType<ElzbietkaEntity>> ELZBIETKA =
+            ENTITY_TYPES.register("elzbietka_entity", () -> EntityType.Builder.of(ElzbietkaEntity::new, MobCategory.CREATURE)
+                    .sized(1f, 1f).build("elzbietka_entity"));
 
 
     public static void register(IEventBus eventBus) {

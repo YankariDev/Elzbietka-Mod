@@ -27,6 +27,7 @@ public class ModEntityLootTable extends EntityLootSubProvider
     @Override
     public void generate() {
         this.add(ModEntities.SUT.get(), LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(ModItems.SUT_MEAT.get()).apply(SetItemCountFunction.setCount(UniformGenerator.between(1,2)).when(LootItemKilledByPlayerCondition.killedByPlayer())))));
+        this.add(ModEntities.ELZBIETKA.get(), LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem(ModItems.SUT_MEAT.get()).apply(SetItemCountFunction.setCount(UniformGenerator.between(1,2)).when(LootItemKilledByPlayerCondition.killedByPlayer())))).withPool(LootPool.lootPool().add(LootItem.lootTableItem(ModItems.SUT.get()).apply(SetItemCountFunction.setCount(UniformGenerator.between(0,1)).when(LootItemKilledByPlayerCondition.killedByPlayer())))));
     }
 
     @Override

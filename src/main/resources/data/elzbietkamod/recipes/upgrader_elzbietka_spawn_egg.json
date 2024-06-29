@@ -1,0 +1,15 @@
+{
+  "type": "elzbietkamod:sut_upgrader",
+  "ingredients": [
+    {
+      "item": "elzbietkamod:super_sut"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "elzbietkamod:elzbietka_spawn_egg"
+  }
+}

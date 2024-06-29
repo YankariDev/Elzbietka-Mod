@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.elzbietkadev.elzbietkamod.block.ModBlocks;
 import net.elzbietkadev.elzbietkamod.block.entity.ModBlockEntities;
 import net.elzbietkadev.elzbietkamod.entity.ModEntities;
+import net.elzbietkadev.elzbietkamod.entity.client.ElzbietkaRenderer;
 import net.elzbietkadev.elzbietkamod.entity.client.SutRenderer;
 import net.elzbietkadev.elzbietkamod.item.ModCreativeModeTabs;
 import net.elzbietkadev.elzbietkamod.item.ModItems;
@@ -84,6 +85,7 @@ public class ElzbietkaMod
         public static void onClientSetup(FMLClientSetupEvent event)
         {
             EntityRenderers.register(ModEntities.SUT.get(), SutRenderer::new);
+            EntityRenderers.register(ModEntities.ELZBIETKA.get(), ElzbietkaRenderer::new);
 
             MenuScreens.register(ModMenuTypes.SUT_UPGRADER_MENU.get(), SutUpgraderStationScreen::new);
         }

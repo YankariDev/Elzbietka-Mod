@@ -78,6 +78,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SUPER_SUT_BOOTS.get());
 
                         output.accept(ModItems.SUT_SPAWN_EGG.get());
+                        output.accept(ModItems.ELZBIETKA_SPAWN_EGG.get());
                     })
                     .build());
 
