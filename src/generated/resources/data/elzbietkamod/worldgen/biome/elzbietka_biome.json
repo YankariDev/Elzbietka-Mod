@@ -68,7 +68,8 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:ore_gold_extra"
+      "minecraft:ore_gold_extra",
+      "elzbietkamod:sut_ore_placed"
     ],
     [],
     [
@@ -100,7 +101,7 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:cow",
+        "type": "elzbietkamod:elzbietka_entity",
         "maxCount": 2,
         "minCount": 1,
         "weight": 2
